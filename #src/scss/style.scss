@@ -1,0 +1,143 @@
+// Импорт файлов <================================================================================>
+
+@import '_nullstyle.scss';
+
+@import '_mixins.scss';
+
+// Переменные <================================================================================>
+
+$maxWidth: 1155;
+$md2: 767px;
+
+// Основные <================================================================================>
+
+@import '_ui.scss';
+@import '_slick.scss';
+@import '_fonts.scss';
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+
+img{
+	max-width: 100%;
+}
+
+// Header <================================================================================>
+
+@import '_header.scss';
+
+// <================================================================================>
+
+.main-section {
+	background: url("../img/main_section_bg.webp") 0 0 no-repeat;
+	padding: 50px 0px 0px 0px;
+	// .main-section__row
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	// .main-section__title
+	&__title {
+		font-size: 36px;
+		line-height: 1.2;
+		font-weight: 700;
+		max-width: 432px;
+	}
+	// .main-section__text
+	&__text {
+		font-size: 14px;
+		line-height: 24px;
+		color: #9dc7d1;
+
+		max-width: 470px;
+
+		margin: 35px 0px 0px 0px;
+	}
+	// .main-section__link
+	&__link {
+		display: inline-block;
+		margin: 35px 0px 0px 0px;
+	}
+	// .main-section__img
+	&__img {}
+}
+
+// <================================================================================>
+
+
+.advantages {
+	background-color: #f2f9fe;
+	padding: 92px 0px;
+	// .advantages__body
+	&__body {
+		max-width: 1020px;
+		margin: 0 auto;
+		padding: 0px 10px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	// .advantages__content
+	&__content {
+		max-width: 477px;
+	}
+	// .advantages__title
+	&__title {}
+	// .advantages__text
+	&__text {
+		margin: 30px 0px 0px 0px;
+	}
+	// .advantages__img
+	&__img {}
+}
+
+// <================================================================================>
+
+.slider {
+	
+	// .slider__title
+	&__title {
+		
+	}
+	// .slider__text
+	&__text {
+		
+	}
+}
+
+
+.slider {
+	padding: 72px 0px 0px 0px;
+	// .slider__title
+	&__title {
+		max-width: 525px;
+		margin: 0 auto;
+		text-align: center;
+
+		font-size: 36px;
+		line-height: 1.2;
+		font-weight: 700;
+		color: #636c6c;
+	}
+	// .slider__text
+	&__text {
+		text-align: center;
+		margin: 24px auto 0;
+		max-width: 753px;
+	}
+	// .slider__row
+	&__row {}
+	// .slider__item
+	&__item {}
+}
+
+
+// Верстка "footer" <================================================================================>
+
+@import '_footer.scss';

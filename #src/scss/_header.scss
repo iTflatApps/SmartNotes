@@ -1,0 +1,31 @@
+.header {
+	// .header__row
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		min-height: 110px;
+	}
+	// .header__logo
+	&__logo {}
+	// .header__mail
+	&__mail {
+		font-size: 18px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #3c3d42;
+
+		display: flex;
+		align-items: center;
+
+		&::before{
+			content: '';
+			display: block;
+			background: url("../img/mail_icon.png") 0 0 no-repeat;
+			width: 18px;
+			height: 13px;
+
+			margin: 0px 12px 0px 0px;
+		}
+	}
+}

@@ -1,0 +1,75 @@
+<!-- Telling the browser how to handle this page -->
+<!DOCTYPE html>
+<!-- The shell of the document, specify the language of the content -->
+<html lang="en">
+	<head>
+		<!-- Page encoding -->
+		<meta charset="UTF-8">
+		<!-- Adaptive -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- Including the stylesheet -->
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- Bravser page title -->
+		<title>Smart Notes - In A New Way!</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			@@include('_header.html')
+			<div class="content">
+				<section class="main-section">
+					<div class="container">
+						<div class="main-section__row">
+							<div class="main-section__content">
+								<h2 class="main-section__title">Smart Notes - In A New Way</h2>
+								<p class="main-section__text">Smart notes is an application thath provides a unique features and experience. Write your own style and express yourself with formatting tools.</p>
+								<a href="" class="main-section__link"><img src="img/google_play.png" alt="Link Google Play"></a>
+							</div>
+							<div class="main-section__img"><img src="img/hand.png" alt="Hand with phone"></div>
+						</div>
+					</div>
+				</section>
+				<section class="advantages">
+					<ul class="advantages__body">
+						<li class="advantages__content">
+							<h2 class="advantages__title title title-green">Voice input</h2>
+							<p class="advantages__text text">Enter messages using your voice. Press and hold the add button until the voice input button button appears</p>
+						</li>
+						<li class="advantages__img"><img src="img/phones/01.png" alt="Voice input"></li>
+					</ul>
+					<ul class="advantages__body">
+						<li class="advantages__img"><img src="img/phones/02.png" alt="Attach table"></li>
+						<li class="advantages__content">
+							<h2 class="advantages__title title title-green">Tables</h2>
+							<p class="advantages__text text">You can attached table in your note</p>
+						</li>
+					</ul>
+					<ul class="advantages__body">
+						<li class="advantages__content">
+							<h2 class="advantages__title title title-green">Categories</h2>
+							<p class="advantages__text text">Create own categories to sort your notes</p>
+						</li>
+						<li class="advantages__img"><img src="img/phones/03.png" alt="Category"></li>
+					</ul>
+				</section>
+				<section class="slider">
+					<div class="container">
+						<h2 class="slider__title">And much more</h2>
+						<p class="slider__text text">Create notes with your own categories, personalized links, attach photos, apps and tables. Scan QR codes without leaving the application</p>
+						<div class="slider__row">
+							<div class="slider__item"><img src="img/slider-images/01.png" alt=""></div>
+							<div class="slider__item"><img src="img/slider-images/01.png" alt=""></div>
+							<div class="slider__item"><img src="img/slider-images/01.png" alt=""></div>
+							<div class="slider__item"><img src="img/slider-images/01.png" alt=""></div>
+						</div>
+					</div>
+				</section>
+			</div>
+			@@include('_footer.html')
+		</div>
+		<!-- Connect JQuery -->
+		<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<!-- Connect file scripts  -->
+		<script src="js/main.min.js"></script>
+	</body>
+</html>
