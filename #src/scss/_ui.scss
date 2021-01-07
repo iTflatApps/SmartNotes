@@ -74,3 +74,15 @@
 	line-height: 24px;
 	color: #8c9494;
 }
+
+
+
+._anim-item{
+	transform: translate(0,120%);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+	&._active{
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+}

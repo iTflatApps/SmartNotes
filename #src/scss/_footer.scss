@@ -26,6 +26,12 @@
 		&:first-child{
 			margin: 0;
 		}
+
+		transition: all 0.3s ease 0s;
+		
+		&:hover{
+			transform: rotate(-360deg);
+		}
 	}
 	// .footer__items
 	&__items {
@@ -45,6 +51,8 @@
 		font-weight: 400;
 
 		margin: 0px 0px 0px 25px;
+
+		transition: text-decoration 0.3s ease 0s;
 		&:first-child{
 			margin: 0;
 		}
@@ -56,6 +64,11 @@
 			&:nth-child(n + 4){
 				margin: 10px 0px 0px 0px;
 			}
+		}
+
+
+		&:hover{
+			text-decoration: underline #8c9494;
 		}
 	}
 }
