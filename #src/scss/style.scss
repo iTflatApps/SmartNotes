@@ -72,6 +72,12 @@ img{
 	&__link {
 		display: inline-block;
 		margin: 35px 0px 0px 0px;
+		transition: all 0.3s ease 0s;
+		@media (min-width:$md2){
+			&:hover{
+				transform: scale(1.1);
+			}
+		}
 	}
 	// .main-section__img
 	&__img {

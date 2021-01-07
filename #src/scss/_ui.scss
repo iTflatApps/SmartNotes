@@ -14,6 +14,9 @@
 
 .content{
 	flex: 1 1 auto;
+	@media (min-width: 555px){
+		margin: 110px 0px 0px 0px;
+	}
 }
 
 .btn{
