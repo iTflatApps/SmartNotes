@@ -14,6 +14,7 @@ $('.slider__row').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   loop: true,
+  adaptiveHeight: true,
   responsive: [
     {
       breakpoint: 745,
