@@ -143,11 +143,6 @@ img{
 		max-width: 525px;
 		margin: 0 auto;
 		text-align: center;
-
-		font-size: 36px;
-		line-height: 1.2;
-		font-weight: 700;
-		color: #636c6c;
 	}
 	// .slider__text
 	&__text {
@@ -195,6 +190,43 @@ img{
 		}
 	}
 }
+
+
+// <------- PRIVACY POLICY ------- > <================================================================================>
+
+
+.privacy {
+	color: #000;
+	margin: 50px 0px 50px 0px;
+	// .privacy__title
+	&__title {
+		font-size: 3.2em;
+		font-weight: 700;
+	}
+	// .privacy__list
+	&__list {
+		margin: 44px 0px 0px 0px;
+		list-style: none;
+		li ol{
+			margin: 0 0 0 20px;
+		}
+		li{
+			margin: 0px 0px 0px 15px;
+		}
+		li ol{
+			list-style: none;
+		}
+	}
+	// .privacy__text
+	&__text {
+		font-size: 18px;
+		color: #222;
+		line-height: 27px;
+
+		margin: 25px 0px 0px 0px;
+	}
+}
+
 
 
 // Верстка "footer" <================================================================================>

@@ -43,7 +43,7 @@
 		color: #3c3d42;
 
 		display: flex;
-		align-items: center;
+		// align-items: center;
 
 		&::before{
 			content: '';
@@ -52,7 +52,7 @@
 			width: 18px;
 			height: 13px;
 
-			margin: 0px 12px 0px 0px;
+			margin: 4px 12px 0px 0px;
 		}
 		@media (max-width:555px){
 			margin: 20px 0px 0px 0px;

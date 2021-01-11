@@ -45,12 +45,11 @@
 	font-size: 36px;
 	line-height: 1.2;
 	font-weight: 700;
+	color: #4e92ff;
 
 	&-green{
 		position: relative;
 		padding: 0px 0px 19px 0px;
-		
-		color: #5dca88;
 
 		&::before{
 			content: '';
@@ -65,9 +64,6 @@
 			border-radius: 10px;
 			opacity: .7;
 		}
-	}
-	&-gray{
-		color: #636c6c;
 	}
 }
 .text {

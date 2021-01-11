@@ -138,12 +138,12 @@ h6 {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
+  color: #4e92ff;
 }
 
 .title-green {
   position: relative;
   padding: 0px 0px 19px 0px;
-  color: #5dca88;
 }
 
 .title-green::before {
@@ -156,10 +156,6 @@ h6 {
   background-color: #949c9c;
   border-radius: 10px;
   opacity: .7;
-}
-
-.title-gray {
-  color: #636c6c;
 }
 
 .text {
@@ -291,7 +287,6 @@ img {
   font-weight: 400;
   color: #3c3d42;
   display: flex;
-  align-items: center;
 }
 
 .header__mail::before {
@@ -300,7 +295,7 @@ img {
   background: url("../img/mail_icon.png") 0 0 no-repeat;
   width: 18px;
   height: 13px;
-  margin: 0px 12px 0px 0px;
+  margin: 4px 12px 0px 0px;
 }
 
 .header__mail:hover {
@@ -391,10 +386,6 @@ img {
   max-width: 525px;
   margin: 0 auto;
   text-align: center;
-  font-size: 36px;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #636c6c;
 }
 
 .slider__text {
@@ -434,6 +425,40 @@ img {
   transition: all .8s ease .2s;
 }
 
+.privacy {
+  color: #000;
+  margin: 50px 0px 50px 0px;
+}
+
+.privacy__title {
+  font-size: 3.2em;
+  font-weight: 700;
+}
+
+.privacy__list {
+  margin: 44px 0px 0px 0px;
+  list-style: none;
+}
+
+.privacy__list li ol {
+  margin: 0 0 0 20px;
+}
+
+.privacy__list li {
+  margin: 0px 0px 0px 15px;
+}
+
+.privacy__list li ol {
+  list-style: none;
+}
+
+.privacy__text {
+  font-size: 18px;
+  color: #222;
+  line-height: 27px;
+  margin: 25px 0px 0px 0px;
+}
+
 .footer {
   min-height: 307px;
   background-color: #2d312f;
@@ -457,7 +482,7 @@ img {
 .footer__social-icon {
   width: 40px;
   height: 40px;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 30px;
   transition: all 0.3s ease 0s;
 }
 
