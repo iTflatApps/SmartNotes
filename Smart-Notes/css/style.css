@@ -257,7 +257,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .header {
@@ -376,6 +376,10 @@ img {
 
 .advantages__text._active {
   transition: all .8s ease .2s;
+}
+
+.advantages__img img {
+  max-width: 85%;
 }
 
 .slider {
