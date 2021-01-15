@@ -36,6 +36,11 @@ img{
 	background: url("../img/main_section_bg.webp") 0 0/cover no-repeat;
 	background-color: rgb(62,113,115);
 	padding: 50px 0px 0px 0px;
+
+	@media (max-width:505px){
+		padding: 50px 0px 50px 0px;
+	}
+
 	// .main-section__row
 	&__row {
 		display: flex;
@@ -90,8 +95,16 @@ img{
 	}
 	// .main-section__img
 	&__img {
+		display: inline-block;
+		max-width: 80%;
+		margin: 0px 0px 0px 100px;
+
 		@media (max-width:$md2){
 			margin: 40px 0px 0px 0px;
+			width: 100%;
+		}
+		@media (max-width:505px){
+			display: none;
 		}
 	}
 }

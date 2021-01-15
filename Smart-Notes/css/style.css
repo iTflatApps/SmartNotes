@@ -351,6 +351,12 @@ img {
   transition: all 0.8s ease .4s;
 }
 
+.main-section__img {
+  display: inline-block;
+  max-width: 80%;
+  margin: 0px 0px 0px 100px;
+}
+
 .advantages {
   background-color: #f2f9fe;
   padding: 62px 0px 92px 0px;
@@ -558,6 +564,7 @@ img {
 
   .main-section__img {
     margin: 40px 0px 0px 0px;
+    width: 100%;
   }
 }
 
@@ -581,6 +588,16 @@ img {
 
   .header__mail {
     margin: 20px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 505px) {
+  .main-section {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .main-section__img {
+    display: none;
   }
 }
 
