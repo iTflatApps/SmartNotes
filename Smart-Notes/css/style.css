@@ -351,6 +351,10 @@ img {
   transition: all 0.8s ease .4s;
 }
 
+.main-section__link img {
+  max-width: 40%;
+}
+
 .main-section__img {
   display: inline-block;
   max-width: 80%;
@@ -443,6 +447,10 @@ img {
 
 .downloads__link._active {
   transition: all .8s ease .2s;
+}
+
+.downloads__link img {
+  max-width: 30%;
 }
 
 .privacy {
