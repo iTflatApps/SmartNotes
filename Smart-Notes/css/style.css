@@ -384,8 +384,13 @@ img {
   transition: all .8s ease .2s;
 }
 
+.advantages__img {
+  max-width: 30%;
+}
+
 .advantages__img img {
-  max-width: 85%;
+  text-align: right;
+  box-shadow: 0px 0px 100px #000;
 }
 
 .slider {
@@ -413,11 +418,12 @@ img {
 }
 
 .slider__item {
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 
 .slider__item img {
   max-width: 70%;
+  box-shadow: 0px 0px 10px #000;
 }
 
 .downloads {
@@ -598,12 +604,6 @@ img {
 
   .main-section__img {
     display: none;
-  }
-}
-
-@media (max-width: 396px) {
-  .slider__item img {
-    max-width: 80%;
   }
 }
 
