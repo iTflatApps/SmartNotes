@@ -546,9 +546,9 @@ img {
   color: #8c9494;
 }
 
-.footer__link:hover {
-  -webkit-text-decoration: underline #8c9494;
-          text-decoration: underline #8c9494;
+.footer__link:hover a {
+  -webkit-text-decoration: 2px underline #8c9494;
+          text-decoration: 2px underline #8c9494;
 }
 
 @media (min-width: 555px) {
@@ -579,6 +579,16 @@ img {
   .main-section__img {
     margin: 40px 0px 0px 0px;
     width: 100%;
+  }
+}
+
+@media (max-width: 616px) {
+  .advantages__img img {
+    box-shadow: 0px 0px 10px #000;
+  }
+
+  .advantages__img {
+    max-width: 40%;
   }
 }
 
