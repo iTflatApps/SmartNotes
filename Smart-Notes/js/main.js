@@ -9,7 +9,7 @@
 $('.slider__row').slick({
   speed: 400,
   lazyLoad: 'ondemand',
-  draggable: false,
+  draggable: true,
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -20,7 +20,7 @@ $('.slider__row').slick({
       breakpoint: 745,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1
       }
     },
     {
