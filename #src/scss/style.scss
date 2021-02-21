@@ -112,43 +112,102 @@ img{
 // <================================================================================>
 
 
+// .advantages {
+// 	background-color: #f2f9fe;
+// 	padding: 92-30px 0px 92px 0px;
+// 	// .advantages__body
+// 	&__body {
+// 		max-width: 1020px;
+// 		margin: 30px auto 0;
+// 		padding: 0px 10px;
+
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: space-between;
+// 	}
+// 	// .advantages__content
+// 	&__content {
+// 		max-width: 477px;
+// 	}
+// 	// .advantages__title
+// 	&__title {}
+// 	// .advantages__text
+// 	&__text {
+// 		margin: 30px 0px 0px 0px;
+// 		max-width: 428px;
+// 		&._active{
+// 			transition: all .8s ease .2s;
+// 		}
+// 	}
+// 	// .advantages__img
+// 	&__img {
+// 		@media (max-width:370px){
+// 			display: none;
+// 		}
+// 		img{
+// 			max-width: 85%;
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+
+
+
 .advantages {
 	background-color: #f2f9fe;
 	padding: 92-30px 0px 92px 0px;
-	// .advantages__body
-	&__body {
+	/* .advantages__container */
+	&__container {
 		max-width: 1020px;
 		margin: 30px auto 0;
-		padding: 0px 10px;
-
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		padding: 0 10px;
 	}
-	// .advantages__content
+	/* .advantages__body */
+	&__body {
+		display: grid;
+		grid-template-columns: 350px 1fr;
+		align-items: center;
+
+		&:nth-child(2n){
+			grid-template-columns: 1fr 450px;
+			@media (max-width: 700px) {
+				grid-template-columns: 100%;
+			}
+		}
+		@media (max-width: 700px) {
+			grid-template-columns: 100%;
+		}
+		margin-top: 30px;
+	}
+}
+.body-advantages {
+	/* .body-advantages__content */
 	&__content {
 		max-width: 477px;
 	}
-	// .advantages__title
-	&__title {}
-	// .advantages__text
+	/* .body-advantages__title */
+	&__title {
+	}
+	/* .body-advantages__text */
 	&__text {
 		margin: 30px 0px 0px 0px;
-		max-width: 428px;
-		&._active{
-			transition: all .8s ease .2s;
-		}
 	}
-	// .advantages__img
+	/* .body-advantages__img */
 	&__img {
-		@media (max-width:370px){
+		@media (max-width: 700px) {
 			display: none;
-		}
-		img{
-			max-width: 85%;
+			visibility: hidden;
+			width: 0;
+			height: 0;
 		}
 	}
 }
+
 
 // <================================================================================>
 
