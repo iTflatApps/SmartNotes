@@ -423,18 +423,6 @@ img {
   transition: all .8s ease .2s;
 }
 
-.slider__row {
-  margin: 76px -15px 0;
-}
-
-.slider__item {
-  padding: 0px 15px;
-}
-
-.slider__item img {
-  max-width: 70%;
-}
-
 .downloads {
   text-align: center;
   margin: 72px 0px 72px 0px;
@@ -630,12 +618,6 @@ img {
 
   .main-section__img {
     display: none;
-  }
-}
-
-@media (max-width: 396px) {
-  .slider__item img {
-    max-width: 80%;
   }
 }
 
