@@ -137,12 +137,22 @@ img{
 			grid-template-columns: 100%;
 		}
 		margin-top: 30px;
+		@media (max-width: 500px) {
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+			align-items: stretch;
+		}
 	}
 }
 .body-advantages {
 	/* .body-advantages__content */
 	&__content {
 		max-width: 477px;
+		@media (max-width: 500px) {
+			order: 1;
+			margin-top: 40px;
+		}
 	}
 	/* .body-advantages__title */
 	&__title {
@@ -153,9 +163,9 @@ img{
 	}
 	/* .body-advantages__img */
 	&__img {
-		@media (max-width: 700px) {
-			visibility: hidden;
-			display: none;
+		@media (max-width: 500px) {
+			order: 2;
+			margin-top: 20px;
 		}
 	}
 }
