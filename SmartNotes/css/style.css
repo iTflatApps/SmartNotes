@@ -491,15 +491,23 @@ img {
 }
 
 .footer__text {
-  font-size: 24px;
+  font-size: 15px;
   font-weight: 400;
   color: #8c9494;
+  margin-top: 50px;
+}
+
+.footer__text a {
+  color: #8f94d8;
+}
+
+.footer__text a:hover {
+  color: #d88fa5;
 }
 
 .footer__social-icons {
   display: flex;
   justify-content: center;
-  margin: 34px 0px 0px 0px;
 }
 
 .footer__social-icon {
@@ -515,10 +523,6 @@ img {
 
 .footer__social-icon:hover {
   transform: rotate(-360deg);
-}
-
-.footer__social-icon img {
-  fill: #8c9494;
 }
 
 .footer__items {
