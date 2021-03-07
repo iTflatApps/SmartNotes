@@ -494,6 +494,7 @@ img {
   font-size: 15px;
   font-weight: 400;
   color: #8c9494;
+  line-height: 25px;
   margin-top: 50px;
 }
 
@@ -526,7 +527,7 @@ img {
 }
 
 .footer__items {
-  margin: 70px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   display: flex;
 }
 
