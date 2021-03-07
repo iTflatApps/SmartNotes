@@ -17,14 +17,14 @@
   box-sizing: border-box;
 }
 
-:focus,
-:active {
-  outline: none;
-}
-
 a:focus,
-a:active {
-  outline: none;
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: #c04f4f dotted 2px;
+  outline-offset: .05em;
 }
 
 nav,
