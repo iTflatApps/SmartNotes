@@ -27,10 +27,7 @@
 	&__logo {
 		img{
 			transition: all 0.3s ease 0s;
-			max-width: 20%;
-		}
-		@media (max-width:555px){
-			text-align: center;
+			width: 200px;
 		}
 	}
 	// .header__mail

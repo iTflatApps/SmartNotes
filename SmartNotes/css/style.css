@@ -286,7 +286,7 @@ img {
 
 .header__logo img {
   transition: all 0.3s ease 0s;
-  max-width: 20%;
+  width: 200px;
 }
 
 .header__mail {
@@ -593,10 +593,6 @@ img {
   .header__row {
     flex-direction: column;
     justify-content: center;
-  }
-
-  .header__logo {
-    text-align: center;
   }
 
   .header__mail {
