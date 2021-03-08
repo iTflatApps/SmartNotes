@@ -21,7 +21,7 @@
 		@media (max-width:555px){
 			flex-direction: column;
 			justify-content: center;
-			padding-bottom: 20px;
+			padding-bottom: 15px;
 			padding-top: 15px;
 		}
 	}
@@ -40,7 +40,10 @@
 		color: #3c3d42;
 
 		display: flex;
-		// align-items: center;
+
+		@media (max-width: 555px) {
+			display: none;
+		}
 
 		&::before{
 			content: '';
