@@ -20,7 +20,7 @@ body{
 }
 
 img{
-	max-width: 90%;
+	max-width: 100%;
 }
 
 // Header <================================================================================>
@@ -88,6 +88,12 @@ img{
 		img{
 			max-width: 35%;
 			margin: 0;
+			@media (max-width: 494px) {
+				max-width: 40%;
+			}
+			@media (max-width: 400px) {
+				max-width: 50%;
+			}
 		}
 	}
 	// .main-section__img

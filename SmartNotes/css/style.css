@@ -264,7 +264,7 @@ body {
 }
 
 img {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .header {
@@ -633,6 +633,18 @@ img {
   .body-advantages__img {
     order: 2;
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 494px) {
+  .main-section__link img {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-section__link img {
+    max-width: 50%;
   }
 }
 
