@@ -21,6 +21,8 @@
 		@media (max-width:555px){
 			flex-direction: column;
 			justify-content: center;
+			padding-bottom: 20px;
+			padding-top: 15px;
 		}
 	}
 	// .header__logo
@@ -61,7 +63,9 @@
 	// HEADER ON SCROLL
 
 	&.active &__row{
-		min-height: 70px;
+		@media (min-width: 555px) {
+			min-height: 70px;
+		}
 	}
 	
 }

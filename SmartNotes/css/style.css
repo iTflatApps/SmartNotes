@@ -310,10 +310,6 @@ img {
   color: #6c6e78;
 }
 
-.header.active .header__row {
-  min-height: 70px;
-}
-
 .main-section {
   background: url("../img/main_section_bg.webp") 0 0/cover no-repeat;
   background-color: #3e7173;
@@ -559,6 +555,10 @@ img {
   .content {
     margin: 110px 0px 0px 0px;
   }
+
+  .header.active .header__row {
+    min-height: 70px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -598,6 +598,8 @@ img {
   .header__row {
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
   }
 
   .header__mail {
