@@ -30,12 +30,11 @@ img{
 // <================================================================================>
 
 .main-section {
-	background: url("../img/main_section_bg.webp") 0 0/cover no-repeat;
-	background-color: rgb(62,113,115);
-	padding: 50px 0px 0px 0px;
+	background-color: #ffffff;
+	padding: 50px 0px 0 0;
 
 	@media (max-width:505px){
-		padding: 50px 0px 50px 0px;
+		padding: 20px 0px;
 	}
 
 	// .main-section__row
@@ -48,12 +47,19 @@ img{
 			flex-direction: column;
 		}
 	}
+	&__content{
+		min-width: 400px;
+		@media (max-width: 505px) {
+			min-width: 100%;
+		}
+	}
 	// .main-section__title
 	&__title {
 		font-size: 36px;
 		line-height: 1.2;
 		font-weight: 700;
 		max-width: 432px;
+		color: #000;
 		@media (max-width:$md2){
 			max-width: 100%;
 		}
@@ -62,7 +68,7 @@ img{
 	&__text {
 		font-size: 14px;
 		line-height: 24px;
-		color: #9dc7d1;
+		color: #8c9494;
 
 		max-width: 470px;
 
@@ -84,23 +90,12 @@ img{
 		&._active{
 			transition: all 0.8s ease .4s;
 		}
-
-		img{
-			max-width: 35%;
-			margin: 0;
-			@media (max-width: 494px) {
-				max-width: 40%;
-			}
-			@media (max-width: 400px) {
-				max-width: 50%;
-			}
-		}
 	}
 	// .main-section__img
 	&__img {
 		display: inline-block;
-		max-width: 80%;
-		margin: 0px 0px 0px 100px;
+		max-width: 120%;
+		margin-left: 30px;
 
 		@media (max-width:$md2){
 			margin: 40px 0px 0px 0px;
@@ -117,11 +112,15 @@ img{
 
 .advantages {
 	background-color: #f2f9fe;
-	padding: 92-30px 0px 92px 0px;
+	padding: 90px 0px 92px 0px;
+	@media (max-width: 500px) {
+		padding: 20px 0 50px;
+	}
 	/* .advantages__container */
 	&__container {
 		max-width: 1020px;
-		margin: 30px auto 0;
+		// margin-top: 30px;
+		margin: 0 auto;
 		padding: 0 10px;
 	}
 	/* .advantages__body */
@@ -130,7 +129,7 @@ img{
 		grid-template-columns: 350px 1fr;
 		align-items: center;
 
-		margin-top: 30px;
+		// margin-top: 30px;
 
 		&:nth-child(2n){
 			grid-template-columns: 1fr 450px;
@@ -217,10 +216,6 @@ img{
 
 		&._active{
 			transition: all .8s ease .2s;
-		}
-
-		img{
-			max-width: 35%;
 		}
 	}
 }

@@ -181,6 +181,10 @@ h6 {
   height: 0;
 }
 
+.btn img {
+  width: 200px;
+}
+
 /* Слайдер */
 
 .slick-slider {
@@ -312,9 +316,8 @@ img {
 }
 
 .main-section {
-  background: url("../img/main_section_bg.webp") 0 0/cover no-repeat;
-  background-color: #3e7173;
-  padding: 50px 0px 0px 0px;
+  background-color: #ffffff;
+  padding: 50px 0px 0 0;
 }
 
 .main-section__row {
@@ -323,17 +326,22 @@ img {
   align-items: center;
 }
 
+.main-section__content {
+  min-width: 400px;
+}
+
 .main-section__title {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
   max-width: 432px;
+  color: #000;
 }
 
 .main-section__text {
   font-size: 14px;
   line-height: 24px;
-  color: #9dc7d1;
+  color: #8c9494;
   max-width: 470px;
   margin: 35px 0px 0px 0px;
 }
@@ -352,27 +360,22 @@ img {
   transition: all 0.8s ease .4s;
 }
 
-.main-section__link img {
-  max-width: 35%;
-  margin: 0;
-}
-
 .main-section__img {
   display: inline-block;
-  max-width: 80%;
-  margin: 0px 0px 0px 100px;
+  max-width: 120%;
+  margin-left: 30px;
 }
 
 .advantages {
   background-color: #f2f9fe;
-  padding: 62px 0px 92px 0px;
+  padding: 90px 0px 92px 0px;
   /* .advantages__container */
   /* .advantages__body */
 }
 
 .advantages__container {
   max-width: 1020px;
-  margin: 30px auto 0;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
@@ -380,7 +383,6 @@ img {
   display: grid;
   grid-template-columns: 350px 1fr;
   align-items: center;
-  margin-top: 30px;
 }
 
 .advantages__body:nth-child(2n) {
@@ -439,10 +441,6 @@ img {
 
 .downloads__link._active {
   transition: all .8s ease .2s;
-}
-
-.downloads__link img {
-  max-width: 35%;
 }
 
 .privacy {
@@ -614,7 +612,11 @@ img {
 
 @media (max-width: 505px) {
   .main-section {
-    padding: 50px 0px 50px 0px;
+    padding: 20px 0px;
+  }
+
+  .main-section__content {
+    min-width: 100%;
   }
 
   .main-section__img {
@@ -623,6 +625,10 @@ img {
 }
 
 @media (max-width: 500px) {
+  .advantages {
+    padding: 20px 0 50px;
+  }
+
   .advantages__body {
     display: flex;
     flex-direction: column;
@@ -638,18 +644,6 @@ img {
   .body-advantages__img {
     order: 2;
     margin-top: 20px;
-  }
-}
-
-@media (max-width: 494px) {
-  .main-section__link img {
-    max-width: 40%;
-  }
-}
-
-@media (max-width: 400px) {
-  .main-section__link img {
-    max-width: 50%;
   }
 }
 
