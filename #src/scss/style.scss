@@ -152,7 +152,7 @@ img{
 	/* .body-advantages__content */
 	&__content {
 		max-width: 477px;
-		@media (max-width: 500px) {
+		@media (max-width: 700px) {
 			order: 1;
 			margin-top: 40px;
 		}
@@ -166,7 +166,7 @@ img{
 	}
 	/* .body-advantages__img */
 	&__img {
-		@media (max-width: 500px) {
+		@media (max-width: 700px) {
 			order: 2;
 			margin-top: 20px;
 		}

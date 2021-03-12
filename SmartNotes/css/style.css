@@ -591,6 +591,16 @@ img {
   .advantages__body {
     grid-template-columns: 100%;
   }
+
+  .body-advantages__content {
+    order: 1;
+    margin-top: 40px;
+  }
+
+  .body-advantages__img {
+    order: 2;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 555px) {
@@ -638,16 +648,6 @@ img {
     flex-direction: column;
     margin: 0;
     align-items: stretch;
-  }
-
-  .body-advantages__content {
-    order: 1;
-    margin-top: 40px;
-  }
-
-  .body-advantages__img {
-    order: 2;
-    margin-top: 20px;
   }
 }
 
