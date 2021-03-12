@@ -34,7 +34,7 @@ img{
 	padding: 50px 0px 0 0;
 
 	@media (max-width:505px){
-		padding: 20px 0px;
+		padding: 70px 0px;
 	}
 
 	// .main-section__row
@@ -187,7 +187,7 @@ img{
 	// .slider__text
 	&__text {
 		text-align: center;
-		margin: 24px auto 0;
+		margin: 25px auto 0;
 		max-width: 753px;
 
 		&._active{
@@ -195,6 +195,7 @@ img{
 		}
 	}
 	&__img{
+		margin-top:50px;
 	}
 }
 

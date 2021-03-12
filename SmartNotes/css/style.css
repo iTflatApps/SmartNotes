@@ -416,12 +416,16 @@ img {
 
 .slider__text {
   text-align: center;
-  margin: 24px auto 0;
+  margin: 25px auto 0;
   max-width: 753px;
 }
 
 .slider__text._active {
   transition: all .8s ease .2s;
+}
+
+.slider__img {
+  margin-top: 50px;
 }
 
 .downloads {
@@ -612,7 +616,7 @@ img {
 
 @media (max-width: 505px) {
   .main-section {
-    padding: 20px 0px;
+    padding: 70px 0px;
   }
 
   .main-section__content {
