@@ -166,7 +166,7 @@ h6 {
 ._anim-item {
   transform: translate(0, 120%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
 }
 
 ._anim-item._active {
