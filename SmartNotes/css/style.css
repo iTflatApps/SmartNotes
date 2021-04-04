@@ -160,7 +160,7 @@ h6 {
 
 .text {
   line-height: 24px;
-  color: #8c9494;
+  color: #5f6565;
 }
 
 ._anim-item {
@@ -317,7 +317,7 @@ img {
 
 .main-section {
   background-color: #ffffff;
-  padding: 50px 0px 0 0;
+  padding: 50px 0 0 0;
 }
 
 .main-section__row {
@@ -341,9 +341,9 @@ img {
 .main-section__text {
   font-size: 14px;
   line-height: 24px;
-  color: #8c9494;
+  color: #535757;
   max-width: 470px;
-  margin: 35px 0px 0px 0px;
+  margin: 35px 0 0 0;
 }
 
 .main-section__text._active {
@@ -492,7 +492,7 @@ img {
 .footer__text {
   font-size: 15px;
   font-weight: 400;
-  color: #8c9494;
+  color: #bcbfbf;
   line-height: 25px;
   margin-top: 50px;
 }
@@ -546,7 +546,7 @@ img {
 }
 
 .footer__link a {
-  color: #8c9494;
+  color: #bcbfbf;
 }
 
 .footer__link:hover {

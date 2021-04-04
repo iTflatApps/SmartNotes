@@ -31,7 +31,7 @@ img{
 
 .main-section {
 	background-color: #ffffff;
-	padding: 50px 0px 0 0;
+	padding: 50px 0 0 0;
 
 	@media (max-width:505px){
 		padding: 70px 0px;
@@ -71,11 +71,11 @@ img{
 	&__text {
 		font-size: 14px;
 		line-height: 24px;
-		color: #8c9494;
+		color: #535757;
 
 		max-width: 470px;
 
-		margin: 35px 0px 0px 0px;
+		margin: 35px 0 0 0;
 		@media (max-width:$md2){
 			max-width: 100%;
 		}
