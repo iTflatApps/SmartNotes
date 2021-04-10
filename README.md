@@ -14,7 +14,7 @@ https://itflatapps.github.io/SmartNotes/SmartNotes/
 2. After that, in the terminal, write this command `sudo npm install gulp-cli -g`
 
 ## Usage
-    git clone https://github.com/Karvacky-Roma/gulp-build.git ./
+    git clone https://github.com/iTflatApps/SmartNotes.git ./
 
     npm i
 
