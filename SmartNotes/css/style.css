@@ -291,7 +291,7 @@ img {
 
 .header__logo img {
   transition: all 0.3s ease 0s;
-  width: 60px;
+  width: 55px;
   margin-right: 15px;
 }
 
@@ -301,7 +301,7 @@ img {
   font: inherit;
   color: #4f4f4f;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .header__mail {
@@ -637,7 +637,7 @@ img {
   }
 
   .header__logo a {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .header__mail {
