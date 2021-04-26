@@ -4,3 +4,5 @@ node_modules/
 # IDE
 .idea/
 .vscode/
+
+package-lock.json
