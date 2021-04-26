@@ -3,16 +3,11 @@
 <!-- The shell of the document, specify the language of the content -->
 <html lang="en">
 	<head>
-		<!-- Page encoding -->
-		<meta charset="UTF-8">
-		<!-- Adaptive -->
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<!-- Including the stylesheet -->
-		<link rel="stylesheet" href="css/style.min.css">
-		<!-- Bravser page title -->
-		<title>Smart Notes - In A New Way! - Privacy Policy</title>
-	</head>
+	@@include('_head.html', {
+		"title": "Smart Notes - In A New Way!",
+		"preview-title": "Smart Notes - In A New Way!",
+		"desc": "Smart notes is an application that provides a unique features and experience"
+	})
 	<body>
 		<div class="wrapper">
 			@@include('_header.html')
