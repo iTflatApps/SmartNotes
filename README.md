@@ -17,5 +17,5 @@ https://itflatapps.github.io/SmartNotes/SmartNotes/
 
     npm i
 
-    gulp (and open localhost:5000/)
+    npm start
 
