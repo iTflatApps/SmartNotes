@@ -5,6 +5,9 @@
   "main": "index.html",
   "author": "Karvackyy Roma",
   "license": "ISC",
+  "scripts": {
+    "start": "gulp"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
