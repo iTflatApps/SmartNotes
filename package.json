@@ -1,10 +1,9 @@
 {
   "name": "gulp-start",
   "version": "1.0.0",
-  "description": "assembly gulp",
+  "description": "Gulp start template https://github.com/Karvacky-Roma/gulp-build",
   "main": "index.html",
   "author": "Karvackyy Roma",
-  "license": "ISC",
   "scripts": {
     "start": "gulp"
   },
