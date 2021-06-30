@@ -19,3 +19,5 @@ https://itflatapps.github.io/SmartNotes/SmartNotes/
 
     npm start
 
+## Design
+- [New layout in figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
