@@ -2,6 +2,9 @@
 Official site of the Smart Notes App
 https://itflatapps.github.io/SmartNotes/SmartNotes/
 
+## Design
+- [New layout in figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
+
 ## Installation On Windows
 
 1. Downloading [Node.js](https://nodejs.org/en/download/)
@@ -18,6 +21,3 @@ https://itflatapps.github.io/SmartNotes/SmartNotes/
     npm i
 
     npm start
-
-## Design
-- [New layout in figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
