@@ -27,36 +27,38 @@ img{
 
 @import '_header.scss';
 
-// <================================================================================>
+/* Main section */
 
 .main-section {
 	background-color: #ffffff;
-	padding: 50px 0 0 0;
 
-	@media (max-width:505px){
-		padding: 70px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	max-width: $maxWidth+px;
+	margin: 0 auto;
+	padding: 50px 10px 0;
+	
+	@media (max-width:$md2){
+		flex-direction: column;
 	}
 
-	// .main-section__row
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-
-		@media (max-width:$md2){
-			flex-direction: column;
-		}
+	@media (max-width: $md2){
+		padding: 70px 10px;
 	}
+
+	@media (max-width:460px){
+		padding: 45px 10px;
+	}
+	
 	&__content{
 		min-width: 400px;
 		@media (max-width: 505px) {
 			min-width: 100%;
 		}
-		@media (min-width: 505px) {
-			padding: 50px 0;
-		}
 	}
-	// .main-section__title
+
 	&__title {
 		font-size: 36px;
 		line-height: 1.2;
@@ -67,7 +69,7 @@ img{
 			max-width: 100%;
 		}
 	}
-	// .main-section__text
+
 	&__text {
 		font-size: 14px;
 		line-height: 24px;
@@ -75,7 +77,7 @@ img{
 
 		max-width: 470px;
 
-		margin: 35px 0 0 0;
+		margin-top: 35px;
 		@media (max-width:$md2){
 			max-width: 100%;
 		}
@@ -84,55 +86,46 @@ img{
 			transition: all 0.8s ease .2s;
 		}
 	}
-	// .main-section__link
+
 	&__link {
 		display: inline-block;
-		margin: 35px 0px 0px 0px;
+		margin-top: 35px;
 		transition: all 0.3s ease 0s;
 
 		&._active{
 			transition: all 0.8s ease .4s;
 		}
 	}
-	// .main-section__img
+
 	&__img {
 		display: inline-block;
 		max-width: 120%;
 		margin-left: 30px;
 
 		@media (max-width:$md2){
-			margin: 40px 0px 0px 0px;
-			width: 100%;
-		}
-		@media (max-width:505px){
 			display: none;
 		}
 	}
 }
 
-// <================================================================================>
-
+/* Advantages */
 
 .advantages {
 	background-color: #f2f9fe;
-	padding: 90px 0px 92px 0px;
+	padding: 50px 0;
+
 	@media (max-width: 500px) {
-		padding: 20px 0 50px;
+		padding: 40px 0;
 	}
-	/* .advantages__container */
-	&__container {
-		max-width: 1020px;
-		// margin-top: 30px;
-		margin: 0 auto;
-		padding: 0 10px;
+
+	@media (max-width: 300px) {
+		padding: 30px 0;
 	}
-	/* .advantages__body */
+
 	&__body {
 		display: grid;
 		grid-template-columns: 350px 1fr;
 		align-items: center;
-
-		// margin-top: 30px;
 
 		&:nth-child(2n){
 			grid-template-columns: 1fr 450px;
@@ -151,8 +144,8 @@ img{
 		}
 	}
 }
+
 .body-advantages {
-	/* .body-advantages__content */
 	&__content {
 		max-width: 477px;
 		@media (max-width: 700px) {
@@ -160,14 +153,11 @@ img{
 			margin-top: 40px;
 		}
 	}
-	/* .body-advantages__title */
-	&__title {
-	}
-	/* .body-advantages__text */
+
 	&__text {
-		margin: 30px 0px 0px 0px;
+		margin-top: 30px;
 	}
-	/* .body-advantages__img */
+
 	&__img {
 		@media (max-width: 700px) {
 			order: 2;
@@ -177,17 +167,16 @@ img{
 }
 
 
-// <================================================================================>
+/* Much More */
 
-.slider {
-	padding: 72px 0px 0px 0px;
-	// .slider__title
+.more {
+	margin-top: 72px;
 	&__title {
 		max-width: 525px;
 		margin: 0 auto;
 		text-align: center;
 	}
-	// .slider__text
+
 	&__text {
 		text-align: center;
 		margin: 25px auto 0;
@@ -202,18 +191,18 @@ img{
 	}
 }
 
-// <================================================================================>
+/* Downloads */
 
 .downloads {
 	text-align: center;
 
 	margin: 72px 0px 72px 0px;
-	// .downloads__title
+
 	&__title {
 		max-width: 525px;
 		margin: 0 auto;
 	}
-	// .downloads__link
+
 	&__link {
 		display: inline-block;
 		margin: 35px 0px 0px 0px;
@@ -224,19 +213,29 @@ img{
 	}
 }
 
-
-// <------- PRIVACY POLICY FILE ------- > <================================================================================>
-
+/* Privacy */
 
 .privacy {
 	color: #000;
 	margin: 50px 0px 50px 0px;
-	// .privacy__title
-	&__title {
-		font-size: 3.2em;
-		font-weight: 700;
+
+	padding: 0 10px;
+	max-width: $maxWidth+px;
+	margin: 50px auto;
+
+	@media (max-width: 600px) {
+		margin: 30px auto;
 	}
-	// .privacy__list
+
+	&__title {
+		font-size: 51px;
+		font-weight: 700;
+
+		@media (max-width: 400px) {
+			font-size: 40px;
+		}
+	}
+
 	&__list {
 		margin: 44px 0px 0px 0px;
 		list-style: none;
@@ -250,7 +249,7 @@ img{
 			list-style: none;
 		}
 	}
-	// .privacy__text
+
 	&__text {
 		font-size: 18px;
 		color: #222;
