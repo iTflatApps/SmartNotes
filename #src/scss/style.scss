@@ -205,51 +205,7 @@ $md2: 767px;
 
 /* Privacy */
 
-.privacy {
-	color: #000;
-	margin: 50px 0px 50px 0px;
-
-	padding: 0 10px;
-	max-width: $maxWidth+px;
-	margin: 50px auto;
-
-	@media (max-width: 600px) {
-		margin: 30px auto;
-	}
-
-	&__title {
-		font-size: 51px;
-		font-weight: 700;
-
-		@media (max-width: 400px) {
-			font-size: 40px;
-		}
-	}
-
-	&__list {
-		margin: 44px 0px 0px 0px;
-		list-style: none;
-		li ol{
-			margin: 0 0 0 20px;
-		}
-		li{
-			margin: 0px 0px 0px 0px;
-		}
-		li ol{
-			list-style: none;
-		}
-	}
-
-	&__text {
-		font-size: 18px;
-		color: #222;
-		line-height: 27px;
-
-		margin: 25px 0px 0px 0px;
-	}
-}
-
-
+@import '_privacy.scss';
 
 // Footer <================================================================================>
 
