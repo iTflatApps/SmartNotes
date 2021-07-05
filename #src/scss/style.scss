@@ -19,9 +19,7 @@ body{
 	color: #fff;
 }
 
-img{
-	max-width: 90%;
-}
+
 
 // Header <================================================================================>
 
@@ -166,7 +164,6 @@ img{
 	}
 }
 
-
 /* Much More */
 
 .more {
@@ -187,7 +184,8 @@ img{
 		}
 	}
 	&__img{
-		margin-top:50px;
+		margin-top: 50px;
+		margin-left: -150px; // aligns the picture in the middle
 	}
 }
 
