@@ -175,6 +175,9 @@ $md2: 767px;
 	&__img{
 		margin-top: 50px;
 		margin-left: -150px; // aligns the picture in the middle
+		@media (max-width: 600px) {
+			margin-left: -30px;
+		}
 	}
 }
 

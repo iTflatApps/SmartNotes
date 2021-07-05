@@ -525,6 +525,10 @@ img {
 }
 
 @media (max-width: 600px) {
+  .more__img {
+    margin-left: -30px;
+  }
+
   .privacy {
     margin: 30px auto;
   }
