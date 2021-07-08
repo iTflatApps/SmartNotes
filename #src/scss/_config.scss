@@ -50,7 +50,7 @@ body{
 	font-weight: 700;
 	color: #4e92ff;
 
-	&-green{
+	&--underline{
 		position: relative;
 		padding: 0px 0px 19px 0px;
 
@@ -67,6 +67,10 @@ body{
 			border-radius: 10px;
 			opacity: .7;
 		}
+	}
+
+	&--blue {
+		color: #4e92ff;
 	}
 }
 

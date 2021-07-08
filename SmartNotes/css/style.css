@@ -137,12 +137,12 @@ body {
   color: #4e92ff;
 }
 
-.title-green {
+.title--underline {
   position: relative;
   padding: 0px 0px 19px 0px;
 }
 
-.title-green::before {
+.title--underline::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -152,6 +152,10 @@ body {
   background-color: #949c9c;
   border-radius: 10px;
   opacity: .7;
+}
+
+.title--blue {
+  color: #4e92ff;
 }
 
 .text {
