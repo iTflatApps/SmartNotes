@@ -90,11 +90,14 @@ h6 {
 
 /*----------------------------------------------------*/
 
+/* Body */
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+  /* Sticky footer */
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
@@ -102,19 +105,29 @@ body {
   flex-direction: column;
 }
 
+/* Container */
+
 .container {
   max-width: 1155px;
   margin: 0 auto;
   padding: 0px 10px;
 }
 
+/* Content */
+
 .content {
   flex: 1 1 auto;
 }
 
+/* Components */
+
 .btn {
   display: inline-block;
   transition: 0.3s;
+}
+
+.btn img {
+  width: 200px;
 }
 
 .title {
@@ -146,6 +159,12 @@ body {
   color: #5f6565;
 }
 
+img {
+  max-width: 100%;
+}
+
+/* Anim-on-scroll */
+
 ._anim-item {
   transform: translate(0, 120%);
   opacity: 0;
@@ -157,19 +176,13 @@ body {
   opacity: 1;
 }
 
+/* Vissually hidden */
+
 .vis-hid {
   visibility: hidden;
   opacity: 0;
   width: 0;
   height: 0;
-}
-
-.btn img {
-  width: 200px;
-}
-
-img {
-  max-width: 100%;
 }
 
 /* Header */

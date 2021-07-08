@@ -1,8 +1,12 @@
+/* Body */
+
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
+
+	/* Sticky footer */
 
 	width: 100%;
 	min-height: 100%;
@@ -11,22 +15,33 @@ body{
 	flex-direction: column;
 }
 
+/* Container */
+
 .container{
 	max-width: $maxWidth+px;
 	margin: 0 auto;
 	padding: 0px 10px;
 }
 
+/* Content */
+
 .content{
 	flex: 1 1 auto;
+	
 	@media (min-width: 555px){
 		margin: 110px 0px 0px 0px;
 	}
 }
 
+/* Components */
+
 .btn{
 	display: inline-block;
 	transition: 0.3s;
+
+	img{
+		width: 200px;
+	}
 }
 
 .title {
@@ -54,36 +69,34 @@ body{
 		}
 	}
 }
+
 .text {
 	line-height: 24px;
 	color: #5f6565;
 }
 
+img{
+	max-width: 100%;
+}
 
+/* Anim-on-scroll */
 
 ._anim-item{
 	transform: translate(0,120%);
 	opacity: 0;
 	transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
+
 	&._active{
 		transform: translate(0px,0px);
 		opacity: 1;
 	}
 }
 
+/* Vissually hidden */
+
 .vis-hid{
 	visibility: hidden;
 	opacity: 0;
 	width: 0;
 	height: 0;
-}
-
-.btn{
-	img{
-		width: 200px;
-	}
-}
-
-img{
-	max-width: 100%;
 }
