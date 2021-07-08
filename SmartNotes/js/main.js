@@ -1,6 +1,4 @@
-
-// ANIMATION HEADER ------------------------------------
-
+// Header animation
 
 let scrollpos = window.scrollY;
 const header = document.querySelector(".header");
@@ -16,13 +14,9 @@ window.addEventListener('scroll', function() {
 
   if (scrollpos >= header_height) { add_class_on_scroll() }
   else { remove_class_on_scroll() }
-
-  // console.log(scrollpos)
 })
 
-
-// ANIMATION WHEN SCROLL ------------------------------
-
+// Add class when scrolling
 
 const animItems = document.querySelectorAll('._anim-items');
 
@@ -61,33 +55,3 @@ if (animItems.length > 0) {
     animOnScroll();
   }, 300) 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
