@@ -139,7 +139,7 @@ body {
 
 .title--underline {
   position: relative;
-  padding: 0px 0px 19px 0px;
+  padding-bottom: 20px;
 }
 
 .title--underline::before {
@@ -254,7 +254,7 @@ img {
   align-items: center;
   max-width: 1155px;
   margin: 0 auto;
-  padding: 50px 10px 0;
+  padding: 60px 10px 0;
 }
 
 .main-section__content {
@@ -274,7 +274,7 @@ img {
   line-height: 24px;
   color: #535757;
   max-width: 470px;
-  margin-top: 35px;
+  margin-top: 31px;
 }
 
 .main-section__text._active {
@@ -283,7 +283,7 @@ img {
 
 .main-section__link {
   display: inline-block;
-  margin-top: 35px;
+  margin-top: 31px;
   transition: all 0.3s ease 0s;
 }
 
@@ -301,7 +301,7 @@ img {
 
 .advantages {
   background-color: #f2f9fe;
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .advantages__body {
@@ -319,13 +319,13 @@ img {
 }
 
 .body-advantages__text {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* Much More */
 
 .more {
-  margin-top: 72px;
+  padding: 60px 0;
 }
 
 .more__title {
@@ -353,7 +353,7 @@ img {
 
 .downloads {
   text-align: center;
-  margin: 72px 0px 72px 0px;
+  padding-bottom: 60px;
 }
 
 .downloads__title {
@@ -363,7 +363,7 @@ img {
 
 .downloads__link {
   display: inline-block;
-  margin: 35px 0px 0px 0px;
+  padding-top: 35px;
 }
 
 .downloads__link._active {
@@ -495,10 +495,7 @@ img {
 @media (max-width: 767px) {
   .main-section {
     flex-direction: column;
-  }
-
-  .main-section {
-    padding: 70px 10px;
+    padding: 40px 10px;
   }
 
   .main-section__title {
@@ -511,6 +508,10 @@ img {
 
   .main-section__img {
     display: none;
+  }
+
+  .advantages {
+    padding: 40px 0;
   }
 }
 
@@ -525,7 +526,11 @@ img {
 
   .body-advantages__content {
     order: 1;
-    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .body-advantages__content:last-child {
+    margin-bottom: 0;
   }
 
   .body-advantages__img {
@@ -581,21 +586,11 @@ img {
 }
 
 @media (max-width: 500px) {
-  .advantages {
-    padding: 40px 0;
-  }
-
   .advantages__body {
     display: flex;
     flex-direction: column;
     margin: 0;
     align-items: stretch;
-  }
-}
-
-@media (max-width: 460px) {
-  .main-section {
-    padding: 45px 10px;
   }
 }
 
@@ -616,11 +611,5 @@ img {
 
   .footer__link:nth-child(n + 4) {
     margin: 10px 0px 0px 0px;
-  }
-}
-
-@media (max-width: 300px) {
-  .advantages {
-    padding: 30px 0;
   }
 }
