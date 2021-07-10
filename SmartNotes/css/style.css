@@ -492,7 +492,7 @@ img {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main-section {
     flex-direction: column;
     padding: 40px 10px;
