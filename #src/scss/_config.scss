@@ -18,7 +18,7 @@ body{
 /* Container */
 
 .container{
-	max-width: $maxWidth+px;
+	max-width: $max-width+px;
 	margin: 0 auto;
 	padding: 0px 10px;
 }
@@ -48,7 +48,7 @@ body{
 	font-size: 36px;
 	line-height: 1.2;
 	font-weight: 700;
-	color: #4e92ff;
+	color: $color-blue-medium;
 
 	&--underline{
 		position: relative;
@@ -62,7 +62,7 @@ body{
 
 			width: 104px;
 			height: 2px;
-			background-color: #949c9c;
+			background-color: $color-gray-lighter;
 
 			border-radius: 10px;
 			opacity: .7;
@@ -70,13 +70,13 @@ body{
 	}
 
 	&--blue {
-		color: #4e92ff;
+		color: $color-blue-medium;
 	}
 }
 
 .text {
 	line-height: 24px;
-	color: #5f6565;
+	color: $color-gray-medium;
 }
 
 img{

@@ -16,7 +16,7 @@ input:focus,
 select:focus,
 textarea:focus {
   box-shadow: none;
-  outline: $focusInputColor dotted 2px;
+  outline: $color-red-medium dotted 2px;
   outline-offset: .05em;
 }
 

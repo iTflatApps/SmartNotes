@@ -9,14 +9,14 @@
 	&__text {
 		font-size: 15px;
 		font-weight: 400;
-		color: #bcbfbf;
+		color: $color-gray-lightest;
 		line-height: 25px;
 
 		margin-top: 50px;
 		a{
-			color: #8f94d8;
+			color: $color-purple-medium;
 			&:hover{
-				color: #d88fa5;
+				color: $color-red-light;
 			}
 		}
 	}
@@ -64,7 +64,9 @@
 		&:first-child{
 			margin: 0;
 		}
-		a{color: #bcbfbf;}
+		a{
+			color: $color-gray-lightest;
+		}
 
 
 		@media (max-width: 390px){
@@ -76,7 +78,7 @@
 
 
 		&:hover{
-			text-decoration: underline #8c9494;
+			text-decoration: underline $color-gray-lightest;
 		}
 	}
 }

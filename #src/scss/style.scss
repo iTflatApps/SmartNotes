@@ -17,7 +17,7 @@
 	justify-content: space-between;
 	align-items: center;
 
-	max-width: $maxWidth+px;
+	max-width: $max-width+px;
 	margin: 0 auto;
 	padding: 60px 10px 0;
 	
@@ -47,7 +47,7 @@
 	&__text {
 		font-size: 14px;
 		line-height: 24px;
-		color: #535757;
+		color: $color-gray-medium;
 
 		max-width: 470px;
 
@@ -87,7 +87,7 @@
 /* Advantages */
 
 .advantages {
-	background-color: #f2f9fe;
+	background-color: $color-blue-lightest;
 	padding: 60px 0;
 
 	@media (max-width: $md2) {

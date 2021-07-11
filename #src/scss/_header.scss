@@ -42,7 +42,7 @@
 			display: flex;
 			align-items: center;
 			font: inherit;
-			color: #4f4f4f;
+			color: $color-gray-medium;
 			font-weight: 700;
 			font-size: 26px;
 
@@ -58,7 +58,7 @@
 		font-size: 18px;
 		line-height: 1.2;
 		font-weight: 400;
-		color: #3c3d42;
+		color: $color-gray-medium;
 
 		display: flex;
 
@@ -80,7 +80,7 @@
 		}
 
 		&:hover {
-			color: #6c6e78;
+			color: $color-gray-heavier;
 		}
 	}
 

@@ -11,6 +11,8 @@
 *,
 *:before,
 *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -20,7 +22,7 @@ input:focus,
 select:focus,
 textarea:focus {
   box-shadow: none;
-  outline: #c04f4f dotted 2px;
+  outline: #C04F4F dotted 2px;
   outline-offset: .05em;
 }
 
@@ -160,7 +162,7 @@ body {
 
 .text {
   line-height: 24px;
-  color: #5f6565;
+  color: #4f4f4f;
 }
 
 img {
@@ -228,7 +230,7 @@ img {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  color: #3c3d42;
+  color: #4f4f4f;
   display: flex;
 }
 
@@ -242,7 +244,7 @@ img {
 }
 
 .header__mail:hover {
-  color: #6c6e78;
+  color: #8c9494;
 }
 
 /* Main section */
@@ -272,7 +274,7 @@ img {
 .main-section__text {
   font-size: 14px;
   line-height: 24px;
-  color: #535757;
+  color: #4f4f4f;
   max-width: 470px;
   margin-top: 31px;
 }
@@ -464,9 +466,7 @@ img {
   font-size: 14px;
   font-weight: 400;
   margin: 0px 0px 0px 25px;
-  transition: -webkit-text-decoration 0.3s ease 0s;
   transition: text-decoration 0.3s ease 0s;
-  transition: text-decoration 0.3s ease 0s, -webkit-text-decoration 0.3s ease 0s;
 }
 
 .footer__link:first-child {
@@ -478,8 +478,7 @@ img {
 }
 
 .footer__link:hover {
-  -webkit-text-decoration: underline #8c9494;
-          text-decoration: underline #8c9494;
+  text-decoration: underline #bcbfbf;
 }
 
 @media (min-width: 555px) {
