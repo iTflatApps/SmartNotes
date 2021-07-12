@@ -11,8 +11,6 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -209,6 +207,9 @@ img {
   justify-content: space-between;
   min-height: 110px;
   transition: all 0.5s ease 0s;
+  max-width: 1155px;
+  margin: 0 auto;
+  padding: 0px 10px;
 }
 
 .header__logo img {
@@ -256,7 +257,7 @@ img {
   align-items: center;
   max-width: 1155px;
   margin: 0 auto;
-  padding: 60px 10px 0;
+  padding: 0px 10px;
 }
 
 .main-section__content {
@@ -303,7 +304,8 @@ img {
 
 .advantages {
   background-color: #f2f9fe;
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .advantages__body {
@@ -327,19 +329,19 @@ img {
 /* Much More */
 
 .more {
-  padding: 60px 0;
+  max-width: 1155px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  padding-top: 60px;
 }
 
 .more__title {
-  max-width: 525px;
-  margin: 0 auto;
   text-align: center;
 }
 
 .more__text {
   text-align: center;
-  margin: 25px auto 0;
-  max-width: 753px;
+  padding-top: 25px;
 }
 
 .more__text._active {
@@ -355,12 +357,11 @@ img {
 
 .downloads {
   text-align: center;
-  padding-bottom: 60px;
-}
-
-.downloads__title {
-  max-width: 525px;
+  max-width: 1155px;
   margin: 0 auto;
+  padding: 0px 10px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .downloads__link {
@@ -466,7 +467,9 @@ img {
   font-size: 14px;
   font-weight: 400;
   margin: 0px 0px 0px 25px;
+  transition: -webkit-text-decoration 0.3s ease 0s;
   transition: text-decoration 0.3s ease 0s;
+  transition: text-decoration 0.3s ease 0s, -webkit-text-decoration 0.3s ease 0s;
 }
 
 .footer__link:first-child {
@@ -478,7 +481,8 @@ img {
 }
 
 .footer__link:hover {
-  text-decoration: underline #bcbfbf;
+  -webkit-text-decoration: underline #bcbfbf;
+          text-decoration: underline #bcbfbf;
 }
 
 @media (min-width: 555px) {

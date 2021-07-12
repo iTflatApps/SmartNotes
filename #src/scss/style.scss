@@ -17,9 +17,7 @@
 	justify-content: space-between;
 	align-items: center;
 
-	max-width: $max-width+px;
-	margin: 0 auto;
-	padding: 60px 10px 0;
+	@include container;
 	
 	@media (max-width:$md2){
 		flex-direction: column;
@@ -88,7 +86,8 @@
 
 .advantages {
 	background-color: $color-blue-lightest;
-	padding: 60px 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
 
 	@media (max-width: $md2) {
 		padding: 40px 0;
@@ -145,17 +144,17 @@
 /* Much More */
 
 .more {
-	padding: 60px 0;
+	@include container;
+
+	padding-top: 60px;
+	
 	&__title {
-		max-width: 525px;
-		margin: 0 auto;
 		text-align: center;
 	}
 
 	&__text {
 		text-align: center;
-		margin: 25px auto 0;
-		max-width: 753px;
+		padding-top: 25px;
 
 		&._active{
 			transition: all .8s ease .2s;
@@ -175,12 +174,10 @@
 .downloads {
 	text-align: center;
 
-	padding-bottom: 60px;
+	@include container;
 
-	&__title {
-		max-width: 525px;
-		margin: 0 auto;
-	}
+	padding-bottom: 60px;
+	padding-top: 60px;
 
 	&__link {
 		display: inline-block;
