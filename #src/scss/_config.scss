@@ -13,11 +13,6 @@ body {
 	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
-
-	/* Lock body */
-	&.lock {
-		overflow: hidden;
-	}
 }
 
 /* Container */
@@ -112,24 +107,4 @@ img {
 	opacity: 0;
 	width: 0;
 	height: 0;
-}
-
-/* Badges */
-
-.badge {
-	&::after {
-		content: "new";
-		font-size: 16px;
-		line-height: 7px;
-		text-align: center;
-
-		color: $color-gray-medium;
-
-		border-radius: 4px;
-		padding: 5px;
-		margin-left: 3px;
-	}
-	&--new::after {
-		background-color: #2bc48a;
-	}
 }
