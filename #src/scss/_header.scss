@@ -14,7 +14,7 @@
 	&__row {
 		display: grid;
 		align-items: center;
-		grid-template-columns: 1fr;
+		grid-template-columns: minmax(1fr, 333px) 1fr;
 		grid-auto-flow: column;
 
 		min-height: 110px;
@@ -43,20 +43,12 @@
 
 			width: 55px;
 			margin-right: 15px;
-
-			@media (max-width: 555px) {
-				width: 50px;
-			}
 		}
 
 		a {
 			color: $color-gray-medium;
 			font-weight: 700;
 			font-size: 26px;
-
-			@media (max-width: 555px) {
-				font-size: 23px;
-			}
 		}
 	}
 
@@ -100,6 +92,8 @@
 		height: 20px;
 		
 		margin-left: auto;
+
+		background-color: transparent;
 
 		&::before,
 		&::after {

@@ -107,7 +107,7 @@ body {
 }
 
 body.lock {
-  overflow-y: clip;
+  overflow: hidden;
 }
 
 /* Container */
@@ -226,7 +226,7 @@ img {
 .header__row {
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(1fr, 333px) 1fr;
   grid-auto-flow: column;
   min-height: 110px;
   transition: all 0.5s ease 0s;
@@ -528,6 +528,7 @@ img {
     width: 30px;
     height: 20px;
     margin-left: auto;
+    background-color: transparent;
   }
 
   .header__burger::before,
@@ -672,14 +673,6 @@ img {
     padding-bottom: 15px;
     padding-top: 15px;
     min-height: 90px;
-  }
-
-  .header__logo img {
-    width: 50px;
-  }
-
-  .header__logo a {
-    font-size: 23px;
   }
 }
 

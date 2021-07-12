@@ -16,7 +16,7 @@ body {
 
 	/* Lock body */
 	&.lock {
-		overflow-y: clip;
+		overflow: hidden;
 	}
 }
 
