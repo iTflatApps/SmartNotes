@@ -1,7 +1,7 @@
 /* Body */
 
-body{
-	font-family: 'Raleway', sans-serif;
+body {
+	font-family: "Raleway", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
@@ -13,37 +13,42 @@ body{
 	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
+
+	/* Lock body */
+	&.lock {
+		overflow-y: clip;
+	}
 }
 
 /* Container */
 
 @mixin container() {
-	max-width: $max-width+px;
+	max-width: $max-width + px;
 	margin: 0 auto;
 	padding: 0px 10px;
 }
 
-.container{
+.container {
 	@include container();
 }
 
 /* Content */
 
-.content{
+.content {
 	flex: 1 1 auto;
-	
-	@media (min-width: 555px){
+
+	@media (min-width: 555px) {
 		margin: 110px 0px 0px 0px;
 	}
 }
 
 /* Components */
 
-.btn{
+.btn {
 	display: inline-block;
 	transition: 0.3s;
 
-	img{
+	img {
 		width: 200px;
 	}
 }
@@ -54,12 +59,12 @@ body{
 	font-weight: 700;
 	color: $color-blue-medium;
 
-	&--underline{
+	&--underline {
 		position: relative;
 		padding-bottom: 20px;
 
-		&::before{
-			content: '';
+		&::before {
+			content: "";
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -69,7 +74,7 @@ body{
 			background-color: $color-gray-lighter;
 
 			border-radius: 10px;
-			opacity: .7;
+			opacity: 0.7;
 		}
 	}
 
@@ -83,28 +88,48 @@ body{
 	color: $color-gray-medium;
 }
 
-img{
+img {
 	max-width: 100%;
 }
 
 /* Anim-on-scroll */
 
-._anim-item{
-	transform: translate(0,120%);
+._anim-item {
+	transform: translate(0, 120%);
 	opacity: 0;
 	transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
 
-	&._active{
-		transform: translate(0px,0px);
+	&._active {
+		transform: translate(0px, 0px);
 		opacity: 1;
 	}
 }
 
 /* Vissually hidden */
 
-.vis-hid{
+.vis-hid {
 	visibility: hidden;
 	opacity: 0;
 	width: 0;
 	height: 0;
+}
+
+/* Badges */
+
+.badge {
+	&::after {
+		content: "new";
+		font-size: 16px;
+		line-height: 7px;
+		text-align: center;
+
+		color: $color-gray-medium;
+
+		border-radius: 4px;
+		padding: 5px;
+		margin-left: 3px;
+	}
+	&--new::after {
+		background-color: #2bc48a;
+	}
 }
