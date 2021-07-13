@@ -97,7 +97,11 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
-  /* Sticky footer */
+}
+
+/* Wrapper */
+
+.wrapper {
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
@@ -207,6 +211,9 @@ img {
   justify-content: space-between;
   min-height: 110px;
   transition: min-height 0.5s ease 0s;
+  max-width: 1155px;
+  margin: 0 auto;
+  padding: 0px 10px;
 }
 
 .header__logo img {
@@ -278,7 +285,7 @@ img {
 }
 
 .main-section__text._active {
-  transition: all 0.8s ease .2s;
+  transition: all 0.8s ease 0.2s;
 }
 
 .main-section__link {
@@ -288,7 +295,7 @@ img {
 }
 
 .main-section__link._active {
-  transition: all 0.8s ease .4s;
+  transition: all 0.8s ease 0.4s;
 }
 
 .main-section__img {
@@ -326,10 +333,10 @@ img {
 /* Much More */
 
 .more {
+  padding-top: 60px;
   max-width: 1155px;
   margin: 0 auto;
   padding: 0px 10px;
-  padding-top: 60px;
 }
 
 .more__title {
@@ -342,7 +349,7 @@ img {
 }
 
 .more__text._active {
-  transition: all .8s ease .2s;
+  transition: all 0.8s ease 0.2s;
 }
 
 .more__img {
@@ -367,7 +374,7 @@ img {
 }
 
 .downloads__link._active {
-  transition: all .8s ease .2s;
+  transition: all 0.8s ease 0.2s;
 }
 
 /* Privacy */

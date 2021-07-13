@@ -5,9 +5,11 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
+}
 
-	/* Sticky footer */
+/* Wrapper */
 
+.wrapper {
 	width: 100%;
 	min-height: 100%;
 	overflow-x: hidden;
@@ -17,14 +19,14 @@ body {
 
 /* Container */
 
-@mixin container() {
-	max-width: $max-width + px;
+@mixin container(){
+	max-width: $max-width+px;
 	margin: 0 auto;
 	padding: 0px 10px;
 }
 
 .container {
-	@include container();
+	@include container;
 }
 
 /* Content */
