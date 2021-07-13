@@ -5,6 +5,10 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
+
+	&.lock {
+		overflow-y: hidden;
+	}
 }
 
 /* Wrapper */
@@ -19,8 +23,8 @@ body {
 
 /* Container */
 
-@mixin container(){
-	max-width: $max-width+px;
+@mixin container() {
+	max-width: $max-width + px;
 	margin: 0 auto;
 	padding: 0px 10px;
 }
@@ -109,4 +113,27 @@ img {
 	opacity: 0;
 	width: 0;
 	height: 0;
+}
+
+/* Badges */
+
+.badge {
+	&::after {
+		font-size: 16px;
+		line-height: 7px;
+		text-align: center;
+	
+		color: $color-gray-medium;
+		border-radius: 4px;
+	
+		padding: 5px;
+		margin-left: 3px;
+
+		align-items: center;
+	}
+
+	&--new::after {
+		content: "new";
+		background: #2BC48A;
+	}
 }
