@@ -453,7 +453,6 @@ img {
   font-size: 16px;
   line-height: 19px;
   color: #bcbfbf;
-  text-align: center;
 }
 
 .footer__list {
@@ -595,6 +594,7 @@ img {
   }
 
   .footer__copyright {
+    text-align: center;
     grid-row: 2;
   }
 

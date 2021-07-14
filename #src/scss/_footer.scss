@@ -22,9 +22,10 @@
 		font-size: 16px;
 		line-height: 19px;
 		color: $color-gray-lightest;
-		text-align: center;
-
+		
 		@media (max-width: $md2) {
+			text-align: center;
+
 			grid-row: 2;
 		}
 	}
