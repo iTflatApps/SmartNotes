@@ -439,76 +439,27 @@ img {
 }
 
 .footer {
-  min-height: 307px;
   background-color: #2d312f;
-  display: flex;
+  padding: 60px 0;
+}
+
+.footer .container {
+  display: grid;
   align-items: center;
-  text-align: center;
+  grid-auto-flow: column;
 }
 
-.footer__text {
-  font-size: 15px;
-  font-weight: 400;
+.footer__copyright {
+  font-size: 16px;
+  line-height: 19px;
   color: #bcbfbf;
-  line-height: 25px;
-  margin-top: 50px;
 }
 
-.footer__text a {
-  color: #8f94d8;
-}
-
-.footer__text a:hover {
-  color: #d88fa5;
-}
-
-.footer__social-icons {
+.footer__list {
   display: flex;
   justify-content: center;
-}
-
-.footer__social-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0px 0px 0px 30px;
-  transition: all 0.3s ease 0s;
-}
-
-.footer__social-icon:first-child {
-  margin: 0;
-}
-
-.footer__social-icon:hover {
-  transform: rotate(-360deg);
-}
-
-.footer__items {
-  margin: 50px 0px 0px 0px;
-  display: flex;
-}
-
-.footer__link {
-  flex: 1 1 calc(100% / 5);
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0px 0px 0px 25px;
-  transition: -webkit-text-decoration 0.3s ease 0s;
-  transition: text-decoration 0.3s ease 0s;
-  transition: text-decoration 0.3s ease 0s, -webkit-text-decoration 0.3s ease 0s;
-}
-
-.footer__link:first-child {
-  margin: 0;
-}
-
-.footer__link a {
-  color: #bcbfbf;
-}
-
-.footer__link:hover {
-  -webkit-text-decoration: underline #bcbfbf;
-          text-decoration: underline #bcbfbf;
+  gap: 40px;
+  margin-left: auto;
 }
 
 @media (min-width: 555px) {
@@ -631,6 +582,26 @@ img {
   .advantages {
     padding: 40px 0;
   }
+
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer .container {
+    grid-auto-flow: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .footer__copyright {
+    grid-row: 2;
+  }
+
+  .footer__list {
+    grid-row: 1;
+    gap: 40px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 700px) {
@@ -697,19 +668,5 @@ img {
 @media (max-width: 400px) {
   .privacy__title {
     font-size: 40px;
-  }
-}
-
-@media (max-width: 390px) {
-  .footer__items {
-    flex-wrap: wrap;
-  }
-
-  .footer__link {
-    flex: 1 1 calc(100% / 4);
-  }
-
-  .footer__link:nth-child(n + 4) {
-    margin: 10px 0px 0px 0px;
   }
 }
