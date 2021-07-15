@@ -20,7 +20,7 @@ input:focus,
 select:focus,
 textarea:focus {
   box-shadow: none;
-  outline: #C04F4F dotted 2px;
+  outline: #4e92ff dotted 3px;
   outline-offset: .05em;
 }
 
