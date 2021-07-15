@@ -451,8 +451,18 @@ img {
 
 .footer__copyright {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 25px;
   color: #bcbfbf;
+}
+
+.footer__link {
+  color: #4e92ff;
+  text-decoration: underline;
+  padding: 3px;
+}
+
+.footer__link:hover {
+  color: #d88fa5;
 }
 
 .footer__list {

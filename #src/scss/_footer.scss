@@ -16,13 +16,23 @@
 
 	&__copyright {
 		font-size: 16px;
-		line-height: 19px;
+		line-height: 25px;
 		color: $color-gray-lightest;
 		
 		@media (max-width: $md2) {
 			text-align: center;
 
 			grid-row: 2;
+		}
+	}
+
+	&__link {
+		color: $color-blue-medium;
+		text-decoration: underline;
+
+		padding: 3px;
+		&:hover {
+			color: $color-red-light;
 		}
 	}
 
