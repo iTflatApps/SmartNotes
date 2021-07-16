@@ -1,9 +1,10 @@
 {
   "name": "gulp-start",
   "version": "1.0.0",
-  "description": "Gulp start template https://github.com/Karvacky-Roma/gulp-build",
+  "description": "Gulp start template",
   "main": "index.html",
   "author": "Karvackyy Roma",
+  "homepage": "https://github.com/Karvacky-Roma/gulp-build",
   "scripts": {
     "start": "gulp"
   },
