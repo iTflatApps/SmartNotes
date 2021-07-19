@@ -1,6 +1,4 @@
-@charset "UTF-8";
-
-/*Обнуление*/
+/*Reset*/
 
 * {
   padding: 0;
@@ -12,16 +10,6 @@
 *:before,
 *:after {
   box-sizing: border-box;
-}
-
-a:focus,
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  box-shadow: none;
-  outline: #4e92ff dotted 3px;
-  outline-offset: .05em;
 }
 
 nav,
