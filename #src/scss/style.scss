@@ -144,9 +144,9 @@
 /* Much More */
 
 .more {
-	padding-top: 60px;
-
 	@include container;
+
+	padding-top: 60px;
 
 	&__title {
 		text-align: center;

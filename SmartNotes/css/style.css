@@ -343,10 +343,10 @@ img {
 /* Much More */
 
 .more {
-  padding-top: 60px;
   max-width: 1155px;
   margin: 0 auto;
   padding: 0px 10px;
+  padding-top: 60px;
 }
 
 .more__title {
