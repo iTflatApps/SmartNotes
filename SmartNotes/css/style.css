@@ -130,7 +130,6 @@ body.lock {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
-  color: #4e92ff;
 }
 
 .title--underline {
@@ -397,11 +396,6 @@ img {
   margin: 50px auto;
 }
 
-.privacy__title {
-  font-size: 51px;
-  font-weight: 700;
-}
-
 .privacy__list {
   margin: 44px 0px 0px 0px;
   list-style: none;
@@ -656,11 +650,5 @@ img {
     flex-direction: column;
     margin: 0;
     align-items: stretch;
-  }
-}
-
-@media (max-width: 400px) {
-  .privacy__title {
-    font-size: 40px;
   }
 }
