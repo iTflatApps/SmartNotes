@@ -39,7 +39,7 @@ let { src, dest } = require('gulp'),
 function browserSync() {
     browsersync.init({
         server: {
-            baseDir: "./" + project_folder + "/"
+            baseDir: `./${project_folder}/`
         },
         port: 5000,
         notify: false
