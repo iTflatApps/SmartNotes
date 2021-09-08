@@ -1,0 +1,36 @@
+/* Blocks */
+
+@import 'blocks/advantages.css';
+@import 'blocks/badge.css';
+@import 'blocks/button.css';
+@import 'blocks/download.css';
+@import 'blocks/footer.css';
+@import 'blocks/header.css';
+@import 'blocks/general.css';
+@import 'blocks/main.css';
+@import 'blocks/more.css';
+@import 'blocks/privacy.css';
+@import 'blocks/reset.css';
+@import 'blocks/scroll-animation.css';
+@import 'blocks/text.css';
+@import 'blocks/title.css';
+@import 'blocks/visually-hidden.css';
+
+/* Global */
+
+:root {
+    --color-red: #d88fa5;
+
+    --color-purple: #8f94d8;
+
+    --color-blue-lightest: #f2f9fe;
+    --color-blue-medium: #4e92ff;
+
+    --color-gray-lightest: #bcbfbf;
+    --color-gray-lighter: #949c9c;
+    --color-gray-light: #5f6565;
+    --color-gray-heavier: #8c9494;
+    --color-gray-medium: #4f4f4f;
+    --color-gray-dark: #2d312f;
+    --color-gray-darker: #222222;
+}
