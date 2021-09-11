@@ -1,0 +1,24 @@
+/* Page */
+
+.page, .page__body {
+    height: 100%;
+}
+
+.page {
+    color: #000;
+    background-color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Body */
+
+.page__body {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.page__body.lock {
+    overflow-y: hidden;
+}
