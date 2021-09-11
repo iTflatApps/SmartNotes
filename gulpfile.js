@@ -48,7 +48,6 @@ function browserSync() {
 
 function css() {
     return src(path.src.css)
-        .pipe(browsersync.stream())
         .pipe(postcss([
             require('postcss-import'),
             require('autoprefixer'),
@@ -58,6 +57,7 @@ function css() {
             extname: ".min.css"
         }))
         .pipe(dest(path.build.css))
+        .pipe(browsersync.stream())
 }
 
 function html() {
