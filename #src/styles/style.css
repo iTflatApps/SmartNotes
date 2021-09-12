@@ -15,6 +15,7 @@
 @import 'blocks/text.css';
 @import 'blocks/title.css';
 @import 'blocks/visually-hidden.css';
+@import 'blocks/logo.css';
 
 /* Global */
 
@@ -33,4 +34,6 @@
     --color-gray-medium: #4f4f4f;
     --color-gray-dark: #2d312f;
     --color-gray-darker: #222222;
+
+    --color-green: #2BC48A;
 }
