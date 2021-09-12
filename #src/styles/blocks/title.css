@@ -1,0 +1,33 @@
+/* Title */
+
+.title {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--color-blue-medium);
+}
+
+/* Blue */
+
+.title--blue {
+    color: var(--color-blue-medium);
+}
+
+/* Underline */
+
+.title--underline {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.title--underline::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 104px;
+    height: 2px;
+    background-color: var(--color-gray-lighter);
+    border-radius: 10px;
+    opacity: 0.7;
+}

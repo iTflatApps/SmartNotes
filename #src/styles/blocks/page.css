@@ -10,6 +10,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1;
 }
 
 /* Body */
@@ -17,6 +18,9 @@
 .page__body {
     display: grid;
     grid-template-rows: min-content 1fr min-content;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .page__body.lock {

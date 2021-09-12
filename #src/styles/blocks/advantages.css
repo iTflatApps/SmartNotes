@@ -1,0 +1,18 @@
+/* Advantages */
+
+.advantages {
+    background-color: var(--color-blue-lightest);
+    padding: 60px 70px;
+}
+
+@media (max-width: 768px) {
+    .advantages {
+        padding: 40px 20px;
+    }
+}
+
+/* Body */
+
+.advantages__body {
+    display: grid;
+}

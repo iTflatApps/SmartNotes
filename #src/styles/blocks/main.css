@@ -5,15 +5,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1155px;
-    margin: 0 auto;
-    padding: 0px 10px;
+    padding: 10px 70px;
 }
 
 @media (max-width: 768px) {
     .main-section {
         flex-direction: column;
-        padding: 40px 10px;
+        padding: 40px 20px;
     }
 }
 
