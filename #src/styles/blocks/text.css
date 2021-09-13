@@ -1,0 +1,7 @@
+/* Text */
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-gray-medium);
+}
