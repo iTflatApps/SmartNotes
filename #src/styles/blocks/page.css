@@ -15,14 +15,16 @@
 
 /* Body */
 
-.page__body {
+.page__body.lock {
+    overflow-y: hidden;
+}
+
+/* Grid */
+
+.page__grid {
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     max-width: 1920px;
     margin: 0 auto;
     overflow-x: hidden;
-}
-
-.page__body.lock {
-    overflow-y: hidden;
 }

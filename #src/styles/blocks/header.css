@@ -53,6 +53,7 @@
 		cursor: pointer;
 		margin-left: auto;
 		background-color: transparent;
+		z-index: 100;
 	}
 	.header__burger::before, .header__burger::after {
 		content: '';
@@ -109,6 +110,7 @@
 		padding: 150px 0px 0px 0px;
 		transition: top 0.3s ease 0s;
 		background-color: var(--color-blue-lightest);
+		z-index: 99;
 	}
 	.header__list.header-menu-active {
 		top: 0;
