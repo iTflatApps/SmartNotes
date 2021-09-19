@@ -18,9 +18,9 @@
 
 /* Content */
 
-/* .main-section__content {
-	min-width: 500px;
-} */
+.main-section__content {
+	max-width: 650px;
+}
 
 /* Title */
 
@@ -37,7 +37,7 @@
 /* Image  */
 
 .main-section__img {
-	transform: translateX(100px);
+	transform: translateX(150px);
 }
 
 @media (max-width: 768px) {
