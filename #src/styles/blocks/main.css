@@ -37,7 +37,7 @@
 /* Image  */
 
 .main-section__img {
-	transform: translateX(150px);
+	transform: translateX(70px);
 }
 
 @media (max-width: 768px) {
