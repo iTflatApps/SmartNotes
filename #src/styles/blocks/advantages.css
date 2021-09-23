@@ -38,6 +38,8 @@
     padding-bottom: 20px;
 }
 
+/* Reorder */
+
 @media (min-width: 768px) {
     .advantages__body:nth-child(odd) .body-advantages__content {
         order: 2;
