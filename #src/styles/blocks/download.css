@@ -1,0 +1,12 @@
+/* Download */
+
+.downloads {
+	padding: 60px 70px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.downloads {
+		padding: 15px;
+	}
+}
