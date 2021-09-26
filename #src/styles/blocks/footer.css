@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     .footer {
-        padding: 20px 15px;
+        padding: 30px 15px;
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
