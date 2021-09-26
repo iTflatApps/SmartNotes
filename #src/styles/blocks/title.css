@@ -30,3 +30,9 @@
     border-radius: 10px;
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
+}
