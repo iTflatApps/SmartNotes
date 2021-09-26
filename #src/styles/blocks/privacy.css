@@ -35,8 +35,8 @@
       
 }
 
-.privacy__text:not(:first-child) {
-    padding-top: 25px;
+.privacy__text:not(:last-child) {
+    padding-bottom: 25px;
 }
 
 @media (max-width: 422px) {
