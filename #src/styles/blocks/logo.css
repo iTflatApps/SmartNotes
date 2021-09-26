@@ -16,6 +16,12 @@
     color: var(--color-gray-medium);
 }
 
+@media (max-width: 990px) {
+    .logo__title {
+        font-size: 22px;
+    }
+}
+
 /* Image */
 
 .logo__image {
