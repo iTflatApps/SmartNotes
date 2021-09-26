@@ -1,0 +1,46 @@
+/* Privacy */
+
+.privacy {
+    padding: 50px 70px;
+}
+
+@media (max-width: 768px) {
+    .privacy {
+        padding: 30px 15px;
+    }
+}
+
+/* Title */
+
+.privacy__title {
+    padding-bottom: 40px;
+}
+
+/* List */
+
+.privacy__list .privacy__list {
+    margin-left: 10px;
+}
+
+.privacy__list {
+    padding-left: 10px;
+}
+
+/* Text */
+
+.privacy__text {
+    font-size: 18px;
+    color: var(--color-gray-darker);
+    line-height: 27px;
+      
+}
+
+.privacy__text:not(:first-child) {
+    padding-top: 25px;
+}
+
+@media (max-width: 422px) {
+    .privacy__text {
+        font-size: 15px;
+    }
+}
