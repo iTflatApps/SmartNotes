@@ -50,9 +50,6 @@ function css() {
             require('autoprefixer'),
             require('postcss-csso'),
         ]))
-        .pipe(rename({
-            extname: ".min.css"
-        }))
         .pipe(dest(path.build.css))
         .pipe(browsersync.stream())
 }
@@ -67,11 +64,9 @@ function html() {
 function js() {
     return src(path.src.js)
         .pipe(fileinclude())
-        .pipe(
-            uglify()
-        )
-        .pipe(browsersync.stream())
+        .pipe(uglify())
         .pipe(dest(path.build.js))
+        .pipe(browsersync.stream())
 }
 
 function images() {
