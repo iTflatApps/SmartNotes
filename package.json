@@ -6,7 +6,8 @@
   "author": "Karvackyy Roma",
   "homepage": "https://github.com/Karvacky-Roma/gulp-build",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "lighthouse": "lighthouse http://localhost:5000/ --output html --output-path ./report.html"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
