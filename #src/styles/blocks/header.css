@@ -34,8 +34,11 @@
 .header__link {
     font-weight: bold;
     font-size: 20px;
-    line-height: 23px;
     color: var(--color-gray-medium);
+}
+
+.header__link:hover {
+    color: var(--color-gray-dark);
 }
 
 /* Burger */
