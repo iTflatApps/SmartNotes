@@ -1,0 +1,37 @@
+/* More */
+
+.more {
+	padding: 60px 70px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.more {
+		padding: 30px 15px;
+	}
+}
+
+/* Text */
+
+.more__text {
+	padding-top: 25px;
+}
+
+/* Image */
+
+.more__img {
+	margin-left: -130px;
+	padding-top: 25px;
+}
+
+@media (max-width: 562px) {
+	.more__img {
+		margin-left: -80px;
+	}
+}
+
+@media (max-width: 450px) {
+	.more__img {
+		margin-left: -50px;
+	}
+}

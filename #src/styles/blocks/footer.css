@@ -1,0 +1,51 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #2d312f;
+    padding: 30px 70px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 15px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}
+
+/* Info */
+
+.footer__info {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-gray-lightest);
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .footer__info {
+        text-align: center;
+    }
+}
+
+/* List */
+
+.footer__list {
+    display: flex;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+/* Website design */
+
+.footer__design {
+    color: var(--color-blue-lightest);
+    text-decoration: underline;
+}
+
+.footer__design:hover {
+    color: var(--color-red);
+}

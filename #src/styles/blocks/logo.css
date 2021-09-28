@@ -1,0 +1,30 @@
+/* Logo */
+
+.logo {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Title */
+
+.logo__title {
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--color-gray-medium);
+}
+
+@media (max-width: 990px) {
+    .logo__title {
+        font-size: 22px;
+    }
+}
+
+/* Image */
+
+.logo__image {
+    width: 55px;
+    height: 55px;
+}
