@@ -26,5 +26,10 @@
     grid-template-rows: min-content 1fr min-content;
     max-width: 1920px;
     margin: 0 auto;
-    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .page__grid {
+        overflow-x: hidden;
+    }
 }
