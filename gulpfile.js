@@ -1,4 +1,4 @@
-let project_folder = "SmartNotes"
+let project_folder = "SmartNotes";
 let source_folder = "#src";
 
 let path = {
@@ -36,7 +36,10 @@ let { src, dest } = require('gulp'),
 function browserSync() {
     browsersync.init({
         server: {
-            baseDir: `./${project_folder}/`
+            baseDir: `./${project_folder}/`,
+            routes: {
+                '/node_modules': 'node_modules'
+            }
         },
         port: 5000,
         notify: false
