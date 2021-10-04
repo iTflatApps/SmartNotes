@@ -49,3 +49,19 @@
 .footer__design:hover {
     color: var(--color-red);
 }
+
+.footer__design:focus {
+    outline: 3px dotted var(--color-blue-lightest);
+}
+
+/* Social */
+
+.footer__social {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__social:focus {
+    outline: 3px dotted var(--color-blue-lightest);
+}

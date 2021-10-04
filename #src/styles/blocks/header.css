@@ -20,6 +20,10 @@
     z-index: 100;
 }
 
+.header__logo:focus {
+    outline: 3px dotted var(--color-blue-medium);
+}
+
 /* List */
 
 .header__list {
@@ -39,6 +43,10 @@
 
 .header__link:hover {
     color: var(--color-gray-dark);
+}
+
+.header__link:focus {
+    outline: 3px dotted var(--color-blue-medium);
 }
 
 /* Burger */

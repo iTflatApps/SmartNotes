@@ -34,6 +34,12 @@
     padding-bottom: 31px;
 }
 
+/* Link */
+
+.main-section__link:focus {
+    outline: 3px dotted var(--color-blue-medium);
+}
+
 /* Image  */
 
 .main-section__img {
