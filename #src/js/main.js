@@ -8,3 +8,5 @@ headerBurger.addEventListener("click", function (e) {
     headerBurger.classList.toggle("header-menu-active");
     body.classList.toggle("lock");
 })
+
+@@include('focus-visible.js')
