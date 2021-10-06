@@ -60,6 +60,11 @@
     display: inline-block;
     width: 32px;
     height: 32px;
+    transition: transform .1s linear;
+}
+
+.footer__social:hover {
+    transform: scale(1.1);
 }
 
 .footer__social:focus {
