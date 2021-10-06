@@ -16,6 +16,10 @@
     color: var(--color-gray-medium);
 }
 
+.logo__title:hover {
+    color: var(--color-gray-dark);
+}
+
 @media (max-width: 990px) {
     .logo__title {
         font-size: 22px;
