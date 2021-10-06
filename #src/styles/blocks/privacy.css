@@ -39,6 +39,10 @@
     padding-bottom: 25px;
 }
 
+.privacy__text a:focus {
+    outline: 3px dotted var(--color-gray-darker);
+}
+
 @media (max-width: 422px) {
     .privacy__text {
         font-size: 15px;
