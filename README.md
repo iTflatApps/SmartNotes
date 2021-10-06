@@ -1,6 +1,5 @@
 # Smart notes
-Official site of the Smart Notes App
-https://itflatapps.github.io/SmartNotes/SmartNotes/
+[Official site](https://itflatapps.github.io/SmartNotes/SmartNotes/) of the [Smart Notes App](https://play.google.com/store/apps/details?hl=en_US&id=com.itflat.smartnotes)
 
 ## Design
 - [New layout in figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
