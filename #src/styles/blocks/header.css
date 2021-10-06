@@ -55,6 +55,10 @@
     display: none;
 }
 
+.header__burger:focus {
+    outline: 3px dotted var(--color-blue-medium);
+}
+
 @media (max-width: 768px) {
     .header__burger {
         display: block;
