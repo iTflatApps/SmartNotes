@@ -28,7 +28,6 @@ let { src, dest } = require('gulp'),
     browsersync = require('browser-sync').create(),
     fileinclude = require('gulp-file-include'),
     del = require('del'),
-    rename = require('gulp-rename'),
     uglify = require('gulp-uglify-es').default,
     imagemin = require('gulp-imagemin'),
     postcss = require('gulp-postcss')
@@ -37,9 +36,6 @@ function browserSync() {
     browsersync.init({
         server: {
             baseDir: `./${project_folder}/`,
-            routes: {
-                '/node_modules': 'node_modules'
-            }
         },
         port: 5000,
         notify: false
