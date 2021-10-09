@@ -1,5 +1,5 @@
 let project_folder = "SmartNotes";
-let source_folder = "#src";
+let source_folder = "src";
 
 let path = {
     build: {
