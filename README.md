@@ -17,7 +17,13 @@
 
 ## Usage
 
-    npm i
+### `npm install`:
+
+Install dependencies
+
+### `npm run dev`:
+
+Run developer mode
 
 ### `npm run build`:
 
