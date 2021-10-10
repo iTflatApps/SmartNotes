@@ -9,20 +9,7 @@
     "start": "gulp",
     "lighthouse": "lighthouse http://localhost:5000/ --output html --output-path ./report.html --view"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "browser-sync": "^2.26.13",
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-file-include": "^2.2.2",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-uglify-es": "^2.0.0",
-    "postcss": "^8.3.6",
-    "postcss-csso": "^5.0.1",
-    "postcss-import": "^14.0.2"
-  },
+  "devDependencies": {},
   "dependencies": {
     "focus-visible": "^5.2.0"
   }
