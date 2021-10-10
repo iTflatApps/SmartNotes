@@ -2,6 +2,7 @@
   "name": "parcel-start",
   "version": "1.0.0",
   "description": "Parcel start template",
+  "browserslist": "> 0.5%, last 2 versions, not dead, not ie <= 11",
   "source": "src/index.html",
   "author": "Karvackyy Roma",
   "homepage": "https://github.com/Karvacky-Roma/gulp-build",
