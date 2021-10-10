@@ -1,15 +1,19 @@
 {
-  "name": "gulp-start",
+  "name": "parcel-start",
   "version": "1.0.0",
-  "description": "Gulp start template",
-  "main": "index.html",
+  "description": "Parcel start template",
+  "source": "src/index.html",
+  "main": "dist/index.html",
   "author": "Karvackyy Roma",
   "homepage": "https://github.com/Karvacky-Roma/gulp-build",
   "scripts": {
-    "start": "gulp",
+    "dev": "parcel",
+    "build": "parcel build",
     "lighthouse": "lighthouse http://localhost:5000/ --output html --output-path ./report.html --view"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
   "dependencies": {
     "focus-visible": "^5.2.0"
   }
