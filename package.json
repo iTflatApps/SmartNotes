@@ -12,6 +12,7 @@
     "lighthouse": "lighthouse http://localhost:5000/ --output html --output-path ./report.html --view"
   },
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0"
   },
   "dependencies": {
