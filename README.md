@@ -24,4 +24,4 @@ Builds the app for production to the dist folder.
 
 > NOTE: You must have lighthouse-cli installed. [Detail here](https://github.com/GoogleChrome/lighthouse#using-the-node-cli)
 
-Runs a site speed test, also automatically opens report.html in the browser
+Runs a site speed test, also automatically opens report.html in the browser.
