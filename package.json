@@ -7,9 +7,9 @@
   "author": "Karvackyy Roma",
   "homepage": "https://github.com/Karvacky-Roma/gulp-build",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel -p 5000",
     "build": "parcel build",
-    "lighthouse": "lighthouse http://localhost:1234/index.html --output html --output-path ./report.html --view"
+    "lighthouse": "lighthouse http://localhost:5000/index.html --output html --output-path ./report.html --view"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.0.0-rc.0",
