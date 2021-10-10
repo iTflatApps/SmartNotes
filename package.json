@@ -1,10 +1,10 @@
 {
   "name": "parcel-start",
   "version": "1.0.0",
-  "description": "Parcel start template",
-  "author": "Karvackyy Roma",
+  "description": "",
   "source": "src/index.html",
-  "homepage": "https://github.com/Karvacky-Roma/gulp-build",
+  "main": "main.js",
+  "homepage": "https://itflatapps.github.io/SmartNotes/",
   "scripts": {
     "dev": "parcel -p 5000",
     "build": "parcel build",
