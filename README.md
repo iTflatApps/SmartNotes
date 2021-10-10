@@ -17,6 +17,8 @@
 
 ## Usage
 
+> Make sure you have the LTS version of [Node.js](https://nodejs.org/en/) installed on your computer before starting
+
 ### `npm install`:
 
 Install dependencies
