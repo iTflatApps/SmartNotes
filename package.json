@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "main": "main.js",
   "homepage": "https://itflatapps.github.io/SmartNotes/",
   "scripts": {
     "dev": "parcel -p 5000",
