@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html class="page" lang="en">
 
-@@include('_head.html', {
-    "title": "Smart Notes - Privacy",
-    "description": "Privacy and Terms"
-})
+    <include src="partials/head.html">
+        {
+            "title": "Smart Notes - In A New Way!",
+            "text": "Smart notes is an application that provides a unique features and experience"
+        }
+    </include>
 
 <body class="page__body">
 
     <div class="page__grid">
         
-        @@include('_header.html')
+        <include src="./partials/header.html"></include>
 
         <main class="main">
 
@@ -43,9 +45,9 @@
             </section>
         </main>
         
-        @@include('_footer.html')
+        <include src="./partials/footer.html"></include>
     </div>
 
-    <script src="js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
