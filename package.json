@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Parcel start template",
   "source": "src/index.html",
-  "main": "dist/index.html",
+  "main": "dist/main.js",
   "author": "Karvackyy Roma",
   "homepage": "https://github.com/Karvacky-Roma/gulp-build",
   "scripts": {
