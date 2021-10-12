@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "homepage": "https://itflatapps.github.io/SmartNotes/",
   "scripts": {
-    "dev": "parcel -p 5000",
-    "build": "parcel build",
+    "dev": "parcel -p 5000 src/*.html",
+    "build": "parcel build src/*.html",
     "lighthouse": "lighthouse http://localhost:5000/ --output html --output-path ./report.html --view"
   },
   "devDependencies": {
