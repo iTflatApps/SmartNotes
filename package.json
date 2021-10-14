@@ -1,12 +1,12 @@
 {
   "name": "parcel-start",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "source": "src/index.html",
   "homepage": "https://itflatapps.github.io/SmartNotes/",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build",
+    "build": "parcel build src/*.html --public-url /SmartNotes/",
     "lighthouse": "lighthouse http://localhost:5000/ --output html --output-path ./report.html --view"
   },
   "devDependencies": {
