@@ -1,6 +1,9 @@
 # Smart notes
 
+<!-- Badges -->
+
 [![AGPL License](https://img.shields.io/badge/license-AGPL--3.0%20License-blue)](https://github.com/iTflatApps/SmartNotes/blob/main/LICENSE)
+[![Deploy to Github Pages](https://img.shields.io/badge/Deploy-success-green)](https://github.com/iTflatApps/SmartNotes/actions)
 
 [Official site](https://itflatapps.github.io/SmartNotes/SmartNotes/) of the [Smart Notes App](https://play.google.com/store/apps/details?hl=en_US&id=com.itflat.smartnotes)
 
