@@ -4,6 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "homepage": "https://iTflatApps.github.io/SmartNotes/",
+  "license": "AGPL",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build src/*.html --public-url /SmartNotes/",

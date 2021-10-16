@@ -1,6 +1,8 @@
 # Smart notes
 [Official site](https://itflatapps.github.io/SmartNotes/SmartNotes/) of the [Smart Notes App](https://play.google.com/store/apps/details?hl=en_US&id=com.itflat.smartnotes)
 
+[![AGPL License](https://img.shields.io/badge/license-AGPL%20License-blue)](https://www.gnu.org/licenses/agpl-3.0.txt)
+
 ## Design
 [Layout in figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
 
