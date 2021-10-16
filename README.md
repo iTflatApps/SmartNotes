@@ -1,6 +1,6 @@
 # Smart notes
 
-[![AGPL License](https://img.shields.io/badge/license-AGPL%20License-blue)](https://www.gnu.org/licenses/agpl-3.0.txt)
+[![AGPL License](https://img.shields.io/badge/license-AGPL--3.0%20License-blue)](https://github.com/iTflatApps/SmartNotes/blob/main/LICENSE)
 
 [Official site](https://itflatapps.github.io/SmartNotes/SmartNotes/) of the [Smart Notes App](https://play.google.com/store/apps/details?hl=en_US&id=com.itflat.smartnotes)
 
