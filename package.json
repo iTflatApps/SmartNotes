@@ -22,8 +22,8 @@
     "focus-visible": "^5.2.0"
   },
   "browserslist": [
+    "defaults",
     "not IE <= 11",
-    "not dead",
     "last 2 version"
   ]
 }
