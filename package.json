@@ -20,5 +20,10 @@
   },
   "dependencies": {
     "focus-visible": "^5.2.0"
-  }
+  },
+  "browserlist": [
+    "not IE <= 11",
+    "not dead",
+    "last 2 version"
+  ]
 }
