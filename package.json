@@ -21,7 +21,7 @@
   "dependencies": {
     "focus-visible": "^5.2.0"
   },
-  "browserlist": [
+  "browserslist": [
     "not IE <= 11",
     "not dead",
     "last 2 version"
