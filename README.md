@@ -14,19 +14,19 @@
 
 > Make sure you have the LTS version of [Node.js](https://nodejs.org/en/) installed on your computer before starting
 
-### `npm install`:
+#### `npm install`:
 
 Install dependencies.
 
-### `npm run dev`:
+#### `npm run dev`:
 
 Run developer mode.
 
-### `npm run build`:
+#### `npm run build`:
 
 Builds the app for production to the dist folder.
 
-### `npm run lighthouse`:
+#### `npm run lighthouse`:
 
 > You must have lighthouse-cli installed. [Detail here](https://github.com/GoogleChrome/lighthouse#using-the-node-cli)
 
