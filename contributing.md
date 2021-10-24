@@ -2,7 +2,6 @@
 
 Thanks for taking the time for contribute!
 
-## Code of Conduct
+## Code of conducts
 
-This project adheres to the Contributor Covenant [code of conduct](https://github.com/iTflatApps/SmartNotes/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
-Please report unacceptable behavior to [@Yesnoruly](https://t.me/yesnoruly).
+This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to [@yesnoruly](https://t.me/yesnoruly)
