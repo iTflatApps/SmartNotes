@@ -7,7 +7,15 @@ The following is a set of guidelines for contributing to the Electron website on
 ## Summary
 
 - [Code of Conducts](#code-of-conducts)
+- [Issue and Pull Requests](#issue-and-pull-requests)
 
 ## Code of conducts
 
 This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to [@yesnoruly](https://t.me/yesnoruly).
+
+## Issue and Pull Requests
+
+- If you're not sure about adding something, [open an issue](https://github.com/iTflatApps/SmartNotes/issues/new/choose) to discuss it.
+- Feel free to open a Pull Request early so that a discussion can be had as changes are developed.
+- Include screenshots and animated gifs of your changes whenever possible.
+- **DON'T** surprise us with big pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time. surprise us with big pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
