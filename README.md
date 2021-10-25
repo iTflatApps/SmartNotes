@@ -1,4 +1,4 @@
-# Smart notes
+# Smart notes Website
 
 <!-- Badges -->
 
