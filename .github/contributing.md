@@ -8,6 +8,7 @@ The following is a set of guidelines for contributing to the Electron website on
 
 - [Code of Conducts](#code-of-conducts)
 - [Issue and Pull Requests](#issue-and-pull-requests)
+- [Commit messages](#commit-messages)
 
 ## Code of conducts
 
