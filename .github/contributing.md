@@ -26,3 +26,11 @@ This project adheres to the Contributor Covenant code of conduct. By participati
 We use the [Conventional Commits](https://www.conventionalcommits.org) specification to standardize our commit history. <br> The commit message summary (or pull request title) is constructed by prepending the type of change being made (e.g., *feat*, *fix*, *refactor*), followed by an imperative, present tense sentence (without a period). Example: `fix: make header bold`
 
 > Types other than *fix:* and *feat:* are allowed
+
+## Deployment
+
+[This website](https://itflatapps.github.io/SmartNotes/) was hosted on [Github Pages](https://pages.github.com/).
+
+### Deployment process
+
+Using Github Actions,a the build is automatically deployed to the `gh-pages` branch (view [deploy.yml](https://github.com/iTflatApps/SmartNotes/blob/main/.github/workflows/deploy.yml))
