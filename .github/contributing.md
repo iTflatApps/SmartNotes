@@ -32,8 +32,11 @@ We use the [Conventional Commits](https://www.conventionalcommits.org) specifica
 ## Setup project
 
 1. Create your own issue or visit the [Issue tracker](https://github.com/iTflatApps/SmartNotes/issues) to find a list of open issues that need attention.
-2. Fork
-3. Clone the forked repo: <br> `git clone https://github.com/iTflatApps/SmartNotes.git`
+2. Fork. 
+3. Clone the forked repo: <br> 
+```bash
+git clone https://github.com/iTflatApps/SmartNotes.git
+```
 
 ## Deployment
 
