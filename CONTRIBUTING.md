@@ -80,6 +80,12 @@ The `styles/` folder contains:
 1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc
 2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc
 
+```css
+.block
+.block__element
+.block__element--modifier
+```
+
 ### Images
 
 For images, specify an explicit *height* and *width* to prevent offset in the layout.
