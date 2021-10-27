@@ -9,6 +9,7 @@
 - [Commit messages](#commit-messages)
 - [Content Changes](#content-changes)
 - [Project setup](#project-setup)
+- [Code style](#code-style)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -61,6 +62,10 @@ Other commands:
 # Runs a site audit, shows its performance and best practices.
 $ npm run lighthouse
 ```
+
+## Code style
+
+A code style is a set of rules or guidelines used when writing the source code of a given project.
 
 ## Deployment
 
