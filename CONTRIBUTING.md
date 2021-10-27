@@ -11,6 +11,7 @@
 - [Project setup](#project-setup)
 - [Code style](#code-style)
   - [HTML](#html)
+  - [CSS](#css)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -71,6 +72,12 @@ A code style is a set of rules or guidelines used when writing the source code o
 ### HTML
 
 The project uses the *BEM* class naming methodology. *BEM* (*Block*, *Element*, *Modifier*) is a component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
+
+### CSS
+
+The `styles/` folder contains:
+1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc
+2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc
 
 ## Deployment
 
