@@ -1,13 +1,13 @@
-# Contributing to Smart Notes website
+# Contributing to Smart Notes website <!-- omit in toc -->
 
 👍🎉 Thanks for taking the time to contribute! 🎉👍
 
-## Summary
+## Summary <!-- omit in toc -->
 
 - [Code of conducts](#code-of-conducts)
 - [Issue and Pull Requests](#issue-and-pull-requests)
 - [Commit messages](#commit-messages)
-- [Setup project](#setup-project)
+- [Project setup](#project-setup)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -31,16 +31,28 @@ We use the [Conventional Commits](https://www.conventionalcommits.org) specifica
 
 If you do need to set the project up locally yourself, feel free to follow these instructions:
 
-### System Requirements
+### System Requirements <!-- omit in toc -->
 
 - [Node.js](https://nodejs.org/en/) >= 16.0.0
 - [git](https://git-scm.com/) >= 2.7.0
 - [lighthouse-cli](https://github.com/GoogleChrome/lighthouse#using-the-node-cli) >= 8.6.0
 
+### Setup steps <!-- omit in toc -->
+
+1. Create [your own issue](https://github.com/iTflatApps/SmartNotes/issues/new/choose) or visit the [Issue tracker](https://github.com/iTflatApps/SmartNotes/issues) to find a list of open issues that need attention.
+2. Fork the repo, then do this:
+```bash
+# Install dependencies
+$ npm install
+
+# Run the develope mode
+$ npm run dev
+```
+
 ## Deployment
 
 [This website](https://itflatapps.github.io/SmartNotes/) was hosted on [Github Pages](https://pages.github.com/).
 
-### Deployment process
+### Deployment process <!-- omit in toc -->
 
 Using Github Actions,a the build is automatically deployed to the `gh-pages` branch (view [deploy.yml](https://github.com/iTflatApps/SmartNotes/blob/main/.github/workflows/deploy.yml))
