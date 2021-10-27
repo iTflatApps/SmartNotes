@@ -55,6 +55,13 @@ $ npm install
 $ npm run dev
 ```
 
+Other commands:
+
+```bash
+# Runs a site audit, shows its performance and best practices.
+$ npm run lighthouse
+```
+
 ## Deployment
 
 [This website](https://itflatapps.github.io/SmartNotes/) was hosted on [Github Pages](https://pages.github.com/).
