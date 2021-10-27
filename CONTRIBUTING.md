@@ -112,4 +112,4 @@ All svg images should be placed in svg sprite for greater optimization.
 
 ### Deployment process <!-- omit in toc -->
 
-Using Github Actions, a the build is automatically deployed to the `gh-pages` branch (view [deploy.yml](https://github.com/iTflatApps/SmartNotes/blob/main/.github/workflows/deploy.yml))
+Using Github Actions the build is automatically deployed to the `gh-pages` branch (view [deploy.yml](https://github.com/iTflatApps/SmartNotes/blob/main/.github/workflows/deploy.yml))
