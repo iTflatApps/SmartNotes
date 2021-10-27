@@ -10,6 +10,7 @@
 - [Content Changes](#content-changes)
 - [Project setup](#project-setup)
 - [Code style](#code-style)
+  - [HTML](#html)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -66,6 +67,10 @@ $ npm run lighthouse
 ## Code style
 
 A code style is a set of rules or guidelines used when writing the source code of a given project.
+
+### HTML
+
+The project uses the *BEM* class naming methodology. *BEM* (*Block*, *Element*, *Modifier*) is a component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
 
 ## Deployment
 
