@@ -7,6 +7,7 @@
 - [Code of conducts](#code-of-conducts)
 - [Issue and Pull Requests](#issue-and-pull-requests)
 - [Commit messages](#commit-messages)
+- [Content Changes](#content-changes)
 - [Project setup](#project-setup)
 - [Deployment](#deployment)
 
@@ -26,6 +27,11 @@ This project adheres to the Contributor Covenant code of conduct. By participati
 We use the [Conventional Commits](https://www.conventionalcommits.org) specification to standardize our commit history. <br> The commit message summary (or pull request title) is constructed by prepending the type of change being made (e.g., *feat*, *fix*, *refactor*), followed by an imperative, present tense sentence (without a period). Example: `fix: make header bold`
 
 > Types other than *fix:* and *feat:* are allowed.
+
+## Content Changes
+
+Most content changes can be made without cloning the repository. <br>
+Simply locate the file you wish to change in the GitHub UI, and click the little edit icon to make your change directly on the GitHub website.
 
 ## Project setup
 
