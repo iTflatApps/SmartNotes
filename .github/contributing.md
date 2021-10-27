@@ -27,14 +27,15 @@ We use the [Conventional Commits](https://www.conventionalcommits.org) specifica
 
 > Types other than *fix:* and *feat:* are allowed.
 
-## Setup project
+## Project setup
 
-1. Create your own issue or visit the [Issue tracker](https://github.com/iTflatApps/SmartNotes/issues) to find a list of open issues that need attention.
-2. Fork. 
-3. Clone the forked repo: <br> 
-```bash
-git clone https://github.com/iTflatApps/SmartNotes.git
-```
+If you do need to set the project up locally yourself, feel free to follow these instructions:
+
+### System Requirements
+
+- [Node.js](https://nodejs.org/en/) >= 16.0.0
+- [git](https://git-scm.com/) >= 2.7.0
+- [lighthouse-cli](https://github.com/GoogleChrome/lighthouse#using-the-node-cli) >= 8.6.0
 
 ## Deployment
 
