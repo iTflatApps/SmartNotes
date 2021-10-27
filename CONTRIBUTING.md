@@ -12,6 +12,7 @@
 - [Code style](#code-style)
   - [HTML](#html)
   - [CSS](#css)
+  - [Images](#images)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -78,6 +79,26 @@ The project uses the *BEM* class naming methodology. *BEM* (*Block*, *Element*, 
 The `styles/` folder contains:
 1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc
 2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc
+
+### Images
+
+For images, specify an explicit *height* and *width* to prevent offset in the layout.
+
+Decorative picture without semantic load, alt remains empty:
+
+```html
+<img src="..." alt="">
+```
+
+A picture with meaning that complements or illustrates the text. In alt, a unique and succinct description of the image is written. Avoid repeating sentences that are already on the page:
+
+```html
+<img src="..." alt="Sunset sky">
+```
+
+At the end of the description, a dot is always placed in alt to help the screen reader pause before the next content.
+
+All svg images should be placed in svg sprite for greater optimization.
 
 ## Deployment
 
