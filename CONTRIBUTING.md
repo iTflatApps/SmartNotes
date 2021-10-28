@@ -128,7 +128,7 @@ The list of browsers on which you need to check the layout of the site:
 
 ## Submitting changes
 
-- Make sure lighthouse test pass and there are not stylelinting(#8) errors
+- Make sure lighthouse test pass and there are not stylelinting ([#2](https://github.com/iTflatApps/SmartNotes/issues/2)) errors
 - Submit a pull requests
 
 ## Deployment
