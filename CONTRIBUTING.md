@@ -14,6 +14,7 @@
   - [CSS](#css)
   - [Images](#images)
 - [Testing site](#testing-site)
+- [Submitting changes](#submitting-changes)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -51,7 +52,8 @@ If you do need to set the project up locally yourself, feel free to follow these
 ### Setup steps <!-- omit in toc -->
 
 1. Create [your own issue](https://github.com/iTflatApps/SmartNotes/issues/new/choose) or visit the [Issue tracker](https://github.com/iTflatApps/SmartNotes/issues) to find a list of open issues that need attention.
-2. Fork the repo, then do this:
+2. Fork the repo
+3. Create your own branch (`my-feature`), then do this
 ```bash
 # Install dependencies
 $ npm install
@@ -122,6 +124,11 @@ The list of browsers on which you need to check the layout of the site:
 
 - Safari 
 - Chrome
+
+## Submitting changes
+
+- Make sure lighthouse test pass and there are not stylelinting(#8) errors
+- Submit a pull requests
 
 ## Deployment
 
