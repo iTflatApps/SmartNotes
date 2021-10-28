@@ -27,6 +27,7 @@ This project adheres to the Contributor Covenant code of conduct. By participati
 - Feel free to open a Pull Request early so that a discussion can be had as changes are developed.
 - Include screenshots and animated gifs of your changes whenever possible.
 - **DON'T** surprise us with big pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time. surprise us with big pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
+- Please try to keep your pull request focused in scope and avoid including unrelated commits.
 
 ## Commit messages
 
