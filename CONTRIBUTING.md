@@ -31,7 +31,7 @@ This project adheres to the Contributor Covenant code of conduct. By participati
 
 ## Commit messages
 
-We use the [Conventional Commits](https://www.conventionalcommits.org) specification to standardize our commit history. <br> The commit message summary (or pull request title) is constructed by prepending the type of change being made (e.g., *feat*, *fix*, *refactor*), followed by an imperative, present tense sentence (without a period). Example: `fix: make header bold`
+We use the [Conventional Commits](https://www.conventionalcommits.org) specification to standardize our commit history. <br> The commit message summary (or pull request title) is constructed by prepending the type of change being made (e.g., *feat*, *fix*, *refactor*), followed by an imperative, present tense sentence (without a period). Example: `fix: make header bold`. 
 
 > Types other than *fix:* and *feat:* are allowed.
 
@@ -53,8 +53,8 @@ If you do need to set the project up locally yourself, feel free to follow these
 ### Setup steps <!-- omit in toc -->
 
 1. Create [your own issue](https://github.com/iTflatApps/SmartNotes/issues/new/choose) or visit the [Issue tracker](https://github.com/iTflatApps/SmartNotes/issues) to find a list of open issues that need attention.
-2. Fork the repo
-3. Create your own branch (`my-feature`), then do this
+2. Fork the repo. 
+3. Create your own branch (`my-feature`), then do this:
 ```bash
 # Install dependencies
 $ npm install
@@ -66,7 +66,7 @@ $ npm run dev
 Other commands:
 
 ```bash
-# Runs a site audit, shows its performance and best practices.
+# Runs a site audit, shows its performance and best practices
 $ npm run lighthouse
 ```
 
@@ -81,8 +81,8 @@ The project uses the *BEM* class naming methodology. *BEM* (*Block*, *Element*, 
 ### CSS
 
 The `styles/` folder contains:
-1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc
-2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc
+1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc. 
+2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc. 
 
 ```css
 .block
@@ -128,8 +128,8 @@ The list of browsers on which you need to check the layout of the site:
 
 ## Submitting changes
 
-- Make sure lighthouse test pass and there are not stylelinting ([#2](https://github.com/iTflatApps/SmartNotes/issues/2)) errors
-- Submit a pull requests
+- Make sure lighthouse test pass and there are not stylelinting ([#2](https://github.com/iTflatApps/SmartNotes/issues/2)) errors. 
+- Submit a pull requests. 
 
 ## Deployment
 
@@ -137,4 +137,4 @@ The list of browsers on which you need to check the layout of the site:
 
 ### Deployment process <!-- omit in toc -->
 
-Using Github Actions the build is automatically deployed to the `gh-pages` branch (view [deploy.yml](https://github.com/iTflatApps/SmartNotes/blob/main/.github/workflows/deploy.yml))
+Using Github Actions the build is automatically deployed to the `gh-pages` branch (view [deploy.yml](https://github.com/iTflatApps/SmartNotes/blob/main/.github/workflows/deploy.yml)). 
