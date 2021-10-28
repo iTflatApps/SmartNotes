@@ -13,6 +13,7 @@
   - [HTML](#html)
   - [CSS](#css)
   - [Images](#images)
+- [Testing site](#testing-site)
 - [Deployment](#deployment)
 
 ## Code of conducts
@@ -105,6 +106,22 @@ A picture with meaning that complements or illustrates the text. In alt, a uniqu
 At the end of the description, a dot is always placed in alt to help the screen reader pause before the next content.
 
 All svg images should be placed in svg sprite for greater optimization.
+
+## Testing site
+
+The list of browsers on which you need to check the layout of the site:
+
+### Desktop <!-- omit in toc -->
+
+- Chrome
+- Safari
+- Firefox
+- Edge
+
+### Mobile <!-- omit in toc -->
+
+- Safari 
+- Chrome
 
 ## Deployment
 
