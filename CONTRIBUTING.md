@@ -80,15 +80,15 @@ The project uses the *BEM* class naming methodology. *BEM* (*Block*, *Element*, 
 
 ### CSS
 
-The `styles/` folder contains:
-1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc. 
-2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc. 
-
 ```css
 .block
 .block__element
 .block__element--modifier
 ```
+
+The `styles/` folder contains:
+1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc. 
+2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc. 
 
 ### Images
 
