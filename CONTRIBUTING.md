@@ -36,7 +36,9 @@ We use the [Conventional Commits](https://www.conventionalcommits.org) specifica
 ## Content Changes
 
 Most content changes can be made without cloning the repository. <br>
-Simply locate the file you wish to change in the GitHub UI, and click the little edit icon to make your change directly on the GitHub website.
+1. Press the dot on the keyboard or change the site domain to `github.dev`
+2. Find the file you need and start editing
+3. Make a [commit](#commit-messages)/PR
 
 ## Project setup
 
