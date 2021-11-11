@@ -1,6 +1,6 @@
 # Contributing to Smart Notes website <!-- omit in toc -->
 
-👍🎉 Thanks for taking the time to contribute! 🎉👍
+Thanks for taking the time to contribute!
 
 ## Summary <!-- omit in toc -->
 
