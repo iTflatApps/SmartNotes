@@ -33,8 +33,6 @@ This project adheres to the Contributor Covenant code of conduct. By participati
 
 We use the [Conventional Commits](https://www.conventionalcommits.org) specification to standardize our commit history. <br> The commit message summary (or pull request title) is constructed by prepending the type of change being made (e.g., *feat*, *fix*, *refactor*), followed by an imperative, present tense sentence (without a period). Example: `fix: make header bold`. 
 
-> Types other than *fix:* and *feat:* are allowed.
-
 ## Content Changes
 
 Most content changes can be made without cloning the repository. <br>
@@ -80,15 +78,15 @@ The project uses the *BEM* class naming methodology. *BEM* (*Block*, *Element*, 
 
 ### CSS
 
-The `styles/` folder contains:
-1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc. 
-2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc. 
-
 ```css
 .block
 .block__element
 .block__element--modifier
 ```
+
+The `styles/` folder contains:
+1. At the root are the service styles. Example: `reset.css`, `variables.css`, etc. 
+2. The `blocks/` folder contains styles of independent blocks. Example: `page.css`,  `header.css`, `footer.css`, etc. 
 
 ### Images
 
