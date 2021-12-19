@@ -7,8 +7,6 @@
     grid-template-columns: fit-content(1fr) 1fr;
     align-items: center;
     padding: 15px 70px 30px;
-    position: relative;
-    z-index: 0;
 }
 
 @media (max-width: 768px) {

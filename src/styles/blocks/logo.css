@@ -5,7 +5,6 @@
     grid-auto-flow: column;
     gap: 15px;
     align-items: center;
-    position: relative;
 }
 
 /* Title */
@@ -31,14 +30,4 @@
 
 .logo__image {
     width: 60px;
-}
-
-/* Hat */
-
-.logo__hat {
-    position: absolute;
-    left: -50px;
-    top: -50px;
-    transform: rotateY(180deg) rotateZ(30deg);
-    display: inline-block;
 }
