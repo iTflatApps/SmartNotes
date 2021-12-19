@@ -18,6 +18,11 @@ A clear and concise description of what the bug is. -->
 
 ## Steps 🏃
 
+<!-- Steps to reproduce the behavior -->
+1. Go to [...]
+2. Click on [...]
+3. See error
+
 ### Desktop (please complete the following information)
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
@@ -28,11 +33,6 @@ A clear and concise description of what the bug is. -->
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
-
-<!-- Steps to reproduce the behavior -->
-1. Go to [...]
-2. Click on [...]
-3. See error
 
 ## Expected behavior 🤔
 
