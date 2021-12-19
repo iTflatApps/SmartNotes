@@ -4,12 +4,37 @@
     display: grid;
     padding: 60px 70px;
     background-color: #f2f9fe;
+    position: relative;
+    z-index: 0;
 }
 
 @media (max-width: 768px) {
-	.advantages {
-		padding: 30px 15px;
-	}
+    .advantages {
+        padding: 30px 15px;
+    }
+}
+
+/* Showflakes */
+
+.advantages::before {
+    content: '';
+    background-image: url('../../img/new-year/snowflake.svg');
+    width: 800px;
+    height: 800px;
+    z-index: -1;
+    position: absolute;
+    left: -100px;
+}
+
+.advantages::after {
+    content: '';
+    background-image: url('../../img/new-year/snowflake.svg');
+    width: 800px;
+    height: 800px;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* Body */

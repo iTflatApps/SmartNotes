@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: #2d312f;
     padding: 30px 70px;
+    background-color: #2d312f;
 }
 
 @media (max-width: 768px) {
@@ -60,7 +60,7 @@
     display: inline-block;
     width: 32px;
     height: 32px;
-    transition: transform .1s linear;
+    transition: transform 0.1s linear;
 }
 
 .footer__social:hover {
