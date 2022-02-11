@@ -2,7 +2,7 @@
 
 <!-- Badges -->
 
-[![AGPL License](https://img.shields.io/badge/license-AGPL--3.0%20License-blue)](https://github.com/iTflatApps/SmartNotes/blob/main/LICENSE)
+[![AGPL License](https://img.shields.io/badge/license-AGPL--3.0%20License-blue)](https://github.com/iTflatApps/SmartNotes/blob/main/LICENSE.md)
 [![Deploy to Github Pages](https://img.shields.io/badge/Deploy-success-green)](https://github.com/iTflatApps/SmartNotes/actions)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
