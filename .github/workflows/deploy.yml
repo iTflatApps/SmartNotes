@@ -11,19 +11,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎
-        uses: actions/checkout@v2.3.1
-
-        - name: Use pnpm 📦
-        uses: pnpm/action-setup@10b4b0b462cfa1a30381c9d7c242194165a466ab
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
         with:
-          version: 6.32.10
+          persist-credentials: false
 
-      - name: Set up Node and cache dependencies 📦
-        uses: actions/setup-node@v3
+      - name: Set up Node 14 📦
+        uses: actions/setup-node@v2
         with:
-          node-version: '16'
-          cache: 'pnpm'
+          node-version: '14'
+
+      - name: Install pnpm 🧰
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.14.2
 
       - name: Install and Build
         run: |
