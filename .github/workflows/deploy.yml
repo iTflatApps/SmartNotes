@@ -19,14 +19,14 @@ jobs:
       - name: Set up Node 14 📦
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install pnpm 🧰
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.14.2
+          version: 7.9.3
 
-      - name: Install and Build
+      - name: Install and Build 🔨
         run: |
           pnpm install
           pnpm build
