@@ -16,9 +16,3 @@
 .download__title {
     padding-bottom: 30px;
 }
-
-/* Link */
-
-.download__link:focus {
-    outline: 3px dotted var(--color-blue-medium);
-}

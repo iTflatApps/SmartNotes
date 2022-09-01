@@ -1,0 +1,29 @@
+.links {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.links a:focus {
+    outline: 3px dotted var(--color-blue-medium);
+}
+
+.download .links {
+    justify-content: center;
+}
+
+/* Apk */
+
+.links__apk {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #4E92FF;
+    border-radius: 4px;
+    min-width: 218px;
+    height: 48px;
+
+    font-size: 14px;
+    color: #FFFFFF;
+}
