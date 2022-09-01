@@ -1,24 +1,24 @@
 /* Download */
 
-.downloads {
+.download {
     padding: 60px 70px;
     text-align: center;
 }
 
 @media (max-width: 768px) {
-    .downloads {
+    .download {
         padding: 30px 15px;
     }
 }
 
 /* Title */
 
-.downloads__title {
+.download__title {
     padding-bottom: 30px;
 }
 
 /* Link */
 
-.downloads__link:focus {
+.download__link:focus {
     outline: 3px dotted var(--color-blue-medium);
 }
