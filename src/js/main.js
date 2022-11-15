@@ -1,5 +1,7 @@
 import './focus-visible';
 
+// Burger menu
+
 const headerList = document.querySelector(".header__list");
 const headerBurger = document.querySelector(".header__burger");
 const body = document.querySelector("body");

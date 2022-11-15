@@ -11,4 +11,5 @@
 [Official site](https://itflatapps.github.io/SmartNotes/) of the Smart Notes App
 
 ## Design
-[Layout in figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
+
+[Figma](https://www.figma.com/file/7rwSXB6wZke7mckW0C4Ont/Smart-Notes)
